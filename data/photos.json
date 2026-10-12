@@ -10,7 +10,7 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "sha256": "a3de9a9935f1e5b0255509ccfd376a6f6d2c30b358e9f35ae939bb551f6c9ce0",
-      "fetchedAt": "2026-10-12T21:50:47.353Z"
+      "fetchedAt": "2026-10-12T21:55:24.137Z"
     },
     "collor": {
       "src": "/photos/collor.jpg",
@@ -21,7 +21,7 @@
       "license": "CC BY-SA 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
       "sha256": "e16204e8d93092b91f4cb89273e4e7b39194f6d9180a85a0127a8cfdf4ca4000",
-      "fetchedAt": "2026-10-12T21:50:46.094Z"
+      "fetchedAt": "2026-10-12T21:55:23.412Z"
     },
     "dilma": {
       "src": "/photos/dilma.jpg",
@@ -32,7 +32,7 @@
       "license": "Attribution",
       "licenseUrl": null,
       "sha256": "0228ca588fd4a848edc8c56e2ab719cbc10ee3944b451c406dcec69e95280205",
-      "fetchedAt": "2026-10-12T21:50:46.994Z"
+      "fetchedAt": "2026-10-12T21:55:23.932Z"
     },
     "fhc": {
       "src": "/photos/fhc.jpg",
@@ -43,7 +43,7 @@
       "license": "CC BY 3.0 br",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
       "sha256": "9bee6b8e578527f27cbd46d1c8e72123279a6bdab96356cb62b633fcab2dbfd7",
-      "fetchedAt": "2026-10-12T21:50:46.586Z"
+      "fetchedAt": "2026-10-12T21:55:23.681Z"
     },
     "itamar": {
       "src": "/photos/itamar.jpg",
@@ -54,7 +54,7 @@
       "license": "Public domain",
       "licenseUrl": null,
       "sha256": "d9a2e0a4834857732d29a40ae6fc17e059fd5f20bb9be7f73ecfd688e016e25e",
-      "fetchedAt": "2026-10-12T21:50:46.345Z"
+      "fetchedAt": "2026-10-12T21:55:23.546Z"
     },
     "lula": {
       "src": "/photos/lula.jpg",
@@ -64,8 +64,8 @@
       "artist": "Ricardo Stuckert/PR",
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
-      "sha256": "2e2cadb0ac3bf247c6e6ab271fa5ec2b3d07af06e532b325369ee0bdbe6555e4",
-      "fetchedAt": "2026-10-12T21:50:46.843Z"
+      "sha256": "56da08fb09f249105eb0cc526964f654544dfd4ad639941cd7d5a8ea3256b0c9",
+      "fetchedAt": "2026-10-12T21:55:23.788Z"
     },
     "sarney": {
       "src": "/photos/sarney.jpg",
@@ -76,7 +76,7 @@
       "license": "CC BY 3.0 br",
       "licenseUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
       "sha256": "e5ee135d5bb2a3e693d9dd236187eb1f7130549ca2ec570b5533bb87962cf3e1",
-      "fetchedAt": "2026-10-12T21:50:45.826Z"
+      "fetchedAt": "2026-10-12T21:55:23.287Z"
     },
     "temer": {
       "src": "/photos/temer.jpg",
@@ -87,7 +87,7 @@
       "license": "CC BY 2.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
       "sha256": "8822706c4bfcb9d96a8336e55ed482ccf4d41dd804047b10731a4bf0a9df4153",
-      "fetchedAt": "2026-10-12T21:50:47.187Z"
+      "fetchedAt": "2026-10-12T21:55:24.054Z"
     }
   }
 }
