@@ -1,11 +1,12 @@
 /**
- * Baixa as séries oficiais (Banco Central/SGS e IBGE/SIDRA) e grava as respostas
+ * Baixa as séries oficiais (Banco Central/SGS e, se configurado, IBGE/SIDRA) e grava as respostas
  * brutas em data/raw, junto com um manifesto (URL + SHA-256 de cada arquivo).
  *
  * Uso: pnpm data:fetch [id-da-série ...]
  */
 import { mkdir, rm, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { parseRaw } from "../src/lib/parse";
 import { SERIES_LIST, seriesApiUrl, type Series } from "../src/lib/series";
 import { MANIFEST_COMMENT, type Manifest, type RawFile } from "./lib/manifest";
 import { RAW_DIR, exists, httpGet, log, readJson, sha256, writeJson } from "./lib/util";
@@ -28,6 +29,28 @@ function windows(series: Series, today: Date): [string, string][] {
   return out;
 }
 
+/**
+ * A API do SGS às vezes responde 200 com uma página HTML de erro ("Requisição inválida").
+ * Só aceita a resposta se ela for interpretável como dados; senão tenta de novo.
+ */
+async function downloadValid(series: Series, url: string, attempts = 4): Promise<string> {
+  let problem = "";
+  for (let i = 0; i < attempts; i++) {
+    if (i > 0) {
+      log(`    resposta inválida (${problem}); nova tentativa ${i + 1}/${attempts}`);
+      await new Promise((r) => setTimeout(r, 3000 * 2 ** (i - 1)));
+    }
+    const body = await (await httpGet(url)).text();
+    try {
+      parseRaw(series, body);
+      return body;
+    } catch (err) {
+      problem = err instanceof Error ? err.message.slice(0, 80) : String(err);
+    }
+  }
+  throw new Error(`resposta inválida após ${attempts} tentativas em ${url}: ${problem}`);
+}
+
 async function fetchSeries(series: Series): Promise<RawFile[]> {
   const ranges: [string, string][] =
     series.provider === "bcb-sgs" ? windows(series, new Date()) : [[series.from, "all"]];
@@ -40,8 +63,7 @@ async function fetchSeries(series: Series): Promise<RawFile[]> {
         ? `https://apisidra.ibge.gov.br/values/t/${series.table}/n1/all/v/${series.variable}/p/all`
         : seriesApiUrl(series, from, to);
     log(`  ↓ ${url}`);
-    const body = await (await httpGet(url)).text();
-    downloads.push({ name: `${from}_${to}.json`, url, body });
+    downloads.push({ name: `${from}_${to}.json`, url, body: await downloadValid(series, url) });
   }
 
   const dir = path.join(RAW_DIR, series.id);

@@ -47,7 +47,9 @@ function stripHtml(html: string): string {
     .replace(/&#0?39;/g, "'")
     .replace(/&nbsp;/g, " ")
     .replace(/\s+/g, " ")
-    .trim();
+    .trim()
+    // O Commons às vezes repete o texto em dois elementos ("Unknown authorUnknown author").
+    .replace(/^(.+?)\1$/, "$1");
 }
 
 async function photoFor(personId: string, article: string): Promise<PhotoInfo> {

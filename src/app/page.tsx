@@ -5,7 +5,7 @@ import { hasData, termCards } from "@/lib/data";
 import { MAX_COMPARE } from "@/lib/selection";
 
 const PILLARS = [
-  { icon: DatabaseIcon, title: "Fontes oficiais", text: "Banco Central (SGS) e IBGE (SIDRA), baixados direto das APIs públicas." },
+  { icon: DatabaseIcon, title: "Fontes oficiais", text: "IBGE e Banco Central, baixados direto da API pública do Banco Central (SGS)." },
   { icon: ShieldCheckIcon, title: "Auditável", text: "Cada número mostra a fórmula, os valores usados e o link da consulta original." },
   { icon: ScaleIcon, title: "Regras iguais para todos", text: "Os mesmos critérios de período e cálculo valem para todos os mandatos." },
 ];

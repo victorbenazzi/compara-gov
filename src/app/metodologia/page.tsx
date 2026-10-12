@@ -23,7 +23,7 @@ export default function MethodologyPage() {
       <Section title="1. De onde vêm os dados">
         <p>
           Todas as séries são baixadas diretamente das APIs públicas do Banco Central (Sistema Gerenciador de Séries
-          Temporais – SGS) e do IBGE (SIDRA). As respostas brutas são guardadas no repositório, byte a byte, com o
+          Temporais – SGS), que também republica as estatísticas do IBGE, como IPCA, PIB e PNAD Contínua. As respostas brutas são guardadas no repositório, byte a byte, com o
           hash SHA-256 de cada arquivo. Nenhum valor é digitado à mão.
         </p>
         <p>

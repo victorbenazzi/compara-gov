@@ -365,13 +365,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -439,13 +439,13 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
@@ -556,13 +556,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -614,13 +614,13 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
@@ -860,13 +860,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -910,13 +910,13 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
@@ -1154,13 +1154,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -1220,19 +1220,19 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Série do deflator ainda não baixada.",
+        "note": "Série do deflator indisponível: ainda não baixada ou rejeitada na conferência.",
         "inputs": []
       },
       "salario_minimo_fim": {
@@ -1565,13 +1565,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -1631,19 +1631,19 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Série do deflator ainda não baixada.",
+        "note": "Série do deflator indisponível: ainda não baixada ou rejeitada na conferência.",
         "inputs": []
       },
       "salario_minimo_fim": {
@@ -1985,13 +1985,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -2083,19 +2083,19 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Série do deflator ainda não baixada.",
+        "note": "Série do deflator indisponível: ainda não baixada ou rejeitada na conferência.",
         "inputs": []
       },
       "salario_minimo_fim": {
@@ -2629,13 +2629,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -2695,19 +2695,19 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Série do deflator ainda não baixada.",
+        "note": "Série do deflator indisponível: ainda não baixada ou rejeitada na conferência.",
         "inputs": []
       },
       "salario_minimo_fim": {
@@ -3071,13 +3071,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -3137,19 +3137,19 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Série do deflator ainda não baixada.",
+        "note": "Série do deflator indisponível: ainda não baixada ou rejeitada na conferência.",
         "inputs": []
       },
       "salario_minimo_fim": {
@@ -3526,13 +3526,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -3624,19 +3624,19 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Série do deflator ainda não baixada.",
+        "note": "Série do deflator indisponível: ainda não baixada ou rejeitada na conferência.",
         "inputs": []
       },
       "salario_minimo_fim": {
@@ -4192,13 +4192,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -4258,19 +4258,19 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Série do deflator ainda não baixada.",
+        "note": "Série do deflator indisponível: ainda não baixada ou rejeitada na conferência.",
         "inputs": []
       },
       "salario_minimo_fim": {
@@ -4647,13 +4647,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -4689,19 +4689,19 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Série do deflator ainda não baixada.",
+        "note": "Série do deflator indisponível: ainda não baixada ou rejeitada na conferência.",
         "inputs": []
       },
       "salario_minimo_fim": {
@@ -4954,13 +4954,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -5028,19 +5028,19 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Série do deflator ainda não baixada.",
+        "note": "Série do deflator indisponível: ainda não baixada ou rejeitada na conferência.",
         "inputs": []
       },
       "salario_minimo_fim": {
@@ -5485,13 +5485,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -5543,19 +5543,19 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Série do deflator ainda não baixada.",
+        "note": "Série do deflator indisponível: ainda não baixada ou rejeitada na conferência.",
         "inputs": []
       },
       "salario_minimo_fim": {
@@ -5864,13 +5864,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -5930,19 +5930,19 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Série do deflator ainda não baixada.",
+        "note": "Série do deflator indisponível: ainda não baixada ou rejeitada na conferência.",
         "inputs": []
       },
       "salario_minimo_fim": {
@@ -6319,13 +6319,13 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "pib_medio": {
@@ -6379,19 +6379,19 @@
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Série ainda não baixada das fontes oficiais.",
+        "note": "Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Série do deflator ainda não baixada.",
+        "note": "Série do deflator indisponível: ainda não baixada ou rejeitada na conferência.",
         "inputs": []
       },
       "salario_minimo_fim": {

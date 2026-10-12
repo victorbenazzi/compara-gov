@@ -233,7 +233,8 @@ export function CompareView({ cards, results }: { cards: TermCard[]; results: Sl
 function shortReason(note: string | undefined): string {
   const since = note && /a partir de ([a-z]{3}\/\d{4}|\d{4})/.exec(note);
   if (since) return `série desde ${since[1]}`;
-  if (note?.startsWith("Série ainda não baixada") || note?.startsWith("Dados ainda não baixados")) return "aguardando coleta";
+  if (note?.startsWith("Dados ainda não baixados")) return "aguardando coleta";
+  if (note?.startsWith("Série indisponível") || note?.startsWith("Série do deflator")) return "série indisponível";
   return "sem dado";
 }
 

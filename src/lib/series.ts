@@ -128,13 +128,14 @@ export const SERIES = {
   },
   desocupacao: {
     id: "desocupacao",
-    provider: "ibge-sidra",
-    table: 6381,
-    variable: 4099,
+    // A mesma série está no SIDRA (tabela 6381, variável 4099), mas a API do IBGE
+    // recusa conexões dos servidores do GitHub Actions; o SGS a republica.
+    provider: "bcb-sgs",
+    code: 24369,
     name: "Taxa de desocupação – PNAD Contínua (trimestre móvel)",
     unit: "%",
     frequency: "monthly",
-    producer: "IBGE – PNAD Contínua",
+    producer: "IBGE – PNAD Contínua (publicado pelo Banco Central no SGS)",
     from: "2012-03",
     publicUrl: "https://sidra.ibge.gov.br/tabela/6381",
     note: "Série iniciada em 2012. Cada mês representa o trimestre móvel encerrado nele.",

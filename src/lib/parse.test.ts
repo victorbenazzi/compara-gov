@@ -1,6 +1,20 @@
 import { describe, expect, it } from "vitest";
 import { parseRaw } from "./parse";
-import { SERIES } from "./series";
+import { SERIES, type IbgeSidraSeries } from "./series";
+
+const sidraSeries: IbgeSidraSeries = {
+  id: "sidra-teste",
+  provider: "ibge-sidra",
+  table: 6381,
+  variable: 4099,
+  name: "Série de teste",
+  unit: "%",
+  frequency: "monthly",
+  producer: "IBGE",
+  from: "2012-03",
+  publicUrl: "https://sidra.ibge.gov.br/tabela/6381",
+  anchors: [],
+};
 
 // Fixtures reproduzem o formato das APIs; os valores são ilustrativos.
 
@@ -22,12 +36,17 @@ describe("parseRaw", () => {
     expect(() => parseRaw(SERIES.ipca, JSON.stringify({ error: "x" }))).toThrow();
   });
 
+  it("rejeita a página HTML de erro que o SGS às vezes devolve com status 200", () => {
+    const html = '<?xml version="1.0" encoding="pt-br"?>\n<html><head><title>Requisição inválida!</title></head></html>';
+    expect(() => parseRaw(SERIES.ipca, html)).toThrow();
+  });
+
   it("lê o SIDRA usando o cabeçalho e ignora valores ausentes", () => {
     const body = JSON.stringify([
       { NC: "Nível Territorial (Código)", V: "Valor", D3C: "Trimestre Móvel (Código)", D3N: "Trimestre Móvel" },
       { NC: "1", V: "8.0", D3C: "201203", D3N: "jan-fev-mar 2012" },
       { NC: "1", V: "...", D3C: "201204", D3N: "fev-mar-abr 2012" },
     ]);
-    expect(parseRaw(SERIES.desocupacao, body)).toEqual({ "2012-03": 8 });
+    expect(parseRaw(sidraSeries, body)).toEqual({ "2012-03": 8 });
   });
 });

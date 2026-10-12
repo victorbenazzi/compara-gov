@@ -14,7 +14,7 @@ Compare lado a lado os governos dos presidentes do Brasil, no estilo "comparar s
 |---|---|---|
 | Inflação | IPCA acumulado no mandato; IPCA médio ao ano | IBGE, via Banco Central (SGS 433) |
 | Atividade | Crescimento médio e acumulado do PIB | IBGE, via Banco Central (SGS 7326) |
-| Emprego e renda | Desemprego ao fim e variação | IBGE – PNAD Contínua (SIDRA 6381) |
+| Emprego e renda | Desemprego ao fim e variação | IBGE – PNAD Contínua, via Banco Central (SGS 24369) |
 | Emprego e renda | Ganho real e valor do salário mínimo | Banco Central (SGS 1619) + IPCA |
 | Juros e câmbio | Selic ao fim e média | Banco Central (SGS 4189) |
 | Juros e câmbio | Dólar ao fim e variação | Banco Central (SGS 3696) |
@@ -30,7 +30,7 @@ APIs oficiais ──► data/raw/ (respostas brutas + SHA-256) ──► data/in
    (BCB, IBGE)        pnpm data:fetch                         pnpm data:build
 ```
 
-1. **Nada é digitado à mão.** `pnpm data:fetch` baixa as séries das APIs do Banco Central (SGS) e do IBGE (SIDRA) e grava cada resposta, byte a byte, em `data/raw/`, com a URL consultada e o hash SHA-256 em `data/raw/manifest.json`.
+1. **Nada é digitado à mão.** `pnpm data:fetch` baixa as séries da API do Banco Central (SGS), que também republica as estatísticas do IBGE, e grava cada resposta, byte a byte, em `data/raw/`, com a URL consultada e o hash SHA-256 em `data/raw/manifest.json`.
 2. **Conferência automática.** Cada série é checada contra valores de referência amplamente divulgados ("âncoras", em [`src/lib/series.ts`](src/lib/series.ts)). Se não bater, a série é rejeitada e aparece como tal no site — isso pega código de série errado, mudança de unidade ou resposta corrompida.
 3. **Recálculo offline.** `pnpm data:build` recalcula tudo a partir de `data/raw/`, sem internet. `pnpm data:verify` (roda no CI) garante que os números publicados batem com esse recálculo.
 4. **No site,** toque em qualquer valor para ver a fórmula, os valores de entrada e o link para a consulta exata na API oficial.

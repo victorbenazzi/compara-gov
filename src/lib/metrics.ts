@@ -61,7 +61,7 @@ function round(x: number, digits = 6): number {
 
 function computeMonthly(m: Exclude<Method, { kind: "annualMean" | "annualCompound" }>, term: Term, ctx: ComputeContext): MetricResult {
   const data = ctx.store[m.series];
-  if (!data) return unavailable("Série ainda não baixada das fontes oficiais.");
+  if (!data) return unavailable("Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).");
 
   const months = attributedMonths(term.start, term.end, ctx.asOf);
   if (months.length === 0) return unavailable("Mandato sem nenhum mês completo.");
@@ -98,7 +98,7 @@ function computeMonthly(m: Exclude<Method, { kind: "annualMean" | "annualCompoun
     if (m.kind === "change") return { ...status, value: round((v1 / v0 - 1) * 100), inputs };
 
     const defl = ctx.store[m.deflator];
-    if (!defl) return unavailable("Série do deflator ainda não baixada.");
+    if (!defl) return unavailable("Série do deflator indisponível: ainda não baixada ou rejeitada na conferência.");
     const deflPoints = collect(defl, used);
     if (!deflPoints.ok) return unavailable(deflPoints.note);
     const inflation = compound(deflPoints.points.map(([, v]) => v));
@@ -125,7 +125,7 @@ function computeMonthly(m: Exclude<Method, { kind: "annualMean" | "annualCompoun
 
 function computeAnnual(m: Extract<Method, { kind: "annualMean" | "annualCompound" }>, term: Term, ctx: ComputeContext): MetricResult {
   const data = ctx.store[m.series];
-  if (!data) return unavailable("Série ainda não baixada das fontes oficiais.");
+  if (!data) return unavailable("Série indisponível: ainda não baixada ou rejeitada na conferência (veja Fontes).");
 
   const asOfYear = Number(ctx.asOf.slice(0, 4));
   const years = new Set<number>();
