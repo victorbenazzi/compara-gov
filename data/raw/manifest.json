@@ -1,0 +1,249 @@
+{
+  "$comment": "Gerado por `pnpm data:fetch`. Cada arquivo em data/raw é a resposta bruta, byte a byte, da URL oficial indicada. O hash SHA-256 permite verificar que nada foi alterado.",
+  "series": {
+    "dbgg": {
+      "fetchedAt": "2026-10-12T21:43:31.809Z",
+      "files": [
+        {
+          "path": "dbgg/2006-12_2015-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/12/2006&dataFinal=31/12/2015",
+          "sha256": "1f35005ded37a2b5621fe399b64d7eeb1d2b461b710a6862d4657e8531f2011c",
+          "bytes": 4143
+        },
+        {
+          "path": "dbgg/2016-01_2025-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/01/2016&dataFinal=31/12/2025",
+          "sha256": "4e92e9f5c4350713cef2366365d27afcb7f738cb109914de4f1522fd2f323163",
+          "bytes": 4561
+        },
+        {
+          "path": "dbgg/2026-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/01/2026&dataFinal=31/10/2026",
+          "sha256": "a4f786dbebebf6764c53e99c549ea450b13e81aa47bbdd065c9d569986bc39cb",
+          "bytes": 305
+        }
+      ]
+    },
+    "dlsp": {
+      "fetchedAt": "2026-10-12T21:43:29.945Z",
+      "files": [
+        {
+          "path": "dlsp/2001-12_2010-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json&dataInicial=01/12/2001&dataFinal=31/12/2010",
+          "sha256": "cd0d60293f6ff16d97418ea55fd9ceaf1e05c1d24d17dfc9e4626f157c7c7a2e",
+          "bytes": 4143
+        },
+        {
+          "path": "dlsp/2011-01_2020-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json&dataInicial=01/01/2011&dataFinal=31/12/2020",
+          "sha256": "002b18e5c5c26969a61f33c14a305ebd68416704ffb5373dfd5ff52c9b8cfb2b",
+          "bytes": 4561
+        },
+        {
+          "path": "dlsp/2021-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json&dataInicial=01/01/2021&dataFinal=31/10/2026",
+          "sha256": "d7316805b001c2d21e4ac4c8d892613a363b41041ebf54faa43eceaa839eeb74",
+          "bytes": 2585
+        }
+      ]
+    },
+    "dolar": {
+      "fetchedAt": "2026-10-12T21:43:25.111Z",
+      "files": [
+        {
+          "path": "dolar/1994-07_2003-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3696/dados?formato=json&dataInicial=01/07/1994&dataFinal=31/12/2003",
+          "sha256": "c96d6db3635c1788929e5210b92d90669ea21142368c15ee116a816e6a1c099b",
+          "bytes": 4447
+        },
+        {
+          "path": "dolar/2004-01_2013-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3696/dados?formato=json&dataInicial=01/01/2004&dataFinal=31/12/2013",
+          "sha256": "1cc1ec28fad581bf0e8b9224a05a0cdad39d4ab09f6b20010c1423206abff273",
+          "bytes": 4681
+        },
+        {
+          "path": "dolar/2014-01_2023-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3696/dados?formato=json&dataInicial=01/01/2014&dataFinal=31/12/2023",
+          "sha256": "1a20b305a69a2f6d1d245e9b98a052d52b482944c87861e31e9a95599a8e0c99",
+          "bytes": 4681
+        },
+        {
+          "path": "dolar/2024-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3696/dados?formato=json&dataInicial=01/01/2024&dataFinal=31/10/2026",
+          "sha256": "bbad11041920adb9ce791878c3d3a1998dcf47c5cf110b21bd4c61ecd08e3e8d",
+          "bytes": 1288
+        }
+      ]
+    },
+    "ipca": {
+      "fetchedAt": "2026-10-12T21:43:15.602Z",
+      "files": [
+        {
+          "path": "ipca/1980-01_1989-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/1980&dataFinal=31/12/1989",
+          "sha256": "132ec09ed672ef51957cc8037f5b5b7fd376f09a4e65bf23802b768f73374dd0",
+          "bytes": 4491
+        },
+        {
+          "path": "ipca/1990-01_1999-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/1990&dataFinal=31/12/1999",
+          "sha256": "c881ca2856e5a7e11b7eabb8f7203b0f941eda2f222d0e97eb772027efad6781",
+          "bytes": 4497
+        },
+        {
+          "path": "ipca/2000-01_2009-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/2000&dataFinal=31/12/2009",
+          "sha256": "2ba49dbe469df995989ee491afe4d66769626987abead99e34e3e1126167f998",
+          "bytes": 4444
+        },
+        {
+          "path": "ipca/2010-01_2019-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/2010&dataFinal=31/12/2019",
+          "sha256": "74772c8ad048d7446f3da29c19f9a38e9faa2f538d0649791581b9bd29d54a65",
+          "bytes": 6255
+        },
+        {
+          "path": "ipca/2020-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/2020&dataFinal=31/10/2026",
+          "sha256": "76ef33b6820ac61e5fbab4a81861d504b27b0aa53f607d4a44f9de2ec094895d",
+          "bytes": 3007
+        }
+      ]
+    },
+    "pib": {
+      "fetchedAt": "2026-10-12T21:43:17.829Z",
+      "files": [
+        {
+          "path": "pib/1980_1989.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json&dataInicial=01/01/1980&dataFinal=31/12/1989",
+          "sha256": "9c24d3c4ac1ce7ec1a6c43ea3bdc778dd654081468aec03c59a912d30eaad7f1",
+          "bytes": 374
+        },
+        {
+          "path": "pib/1990_1999.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json&dataInicial=01/01/1990&dataFinal=31/12/1999",
+          "sha256": "e1ffe12890ced843e9f5604fd95021d36f25e43b131df8d10cef60c6f0fb15c1",
+          "bytes": 373
+        },
+        {
+          "path": "pib/2000_2009.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json&dataInicial=01/01/2000&dataFinal=31/12/2009",
+          "sha256": "6f231173179ad843dacc92fd52cd9e78e9c00872acbee613aef0609b11eacf79",
+          "bytes": 372
+        },
+        {
+          "path": "pib/2010_2019.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json&dataInicial=01/01/2010&dataFinal=31/12/2019",
+          "sha256": "836ff99bb7d605edfd25f26ac684e889933d9046e9dd3ccd3ed63a5e648bf39c",
+          "bytes": 373
+        },
+        {
+          "path": "pib/2020_2026.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json&dataInicial=01/01/2020&dataFinal=31/12/2026",
+          "sha256": "828f4e24972d5c75a3e07b982d9bc6bb08bbef915462674d5545b95606f672cb",
+          "bytes": 224
+        }
+      ]
+    },
+    "reservas": {
+      "fetchedAt": "2026-10-12T21:43:35.016Z",
+      "files": [
+        {
+          "path": "reservas/1985-01_1994-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json&dataInicial=01/01/1985&dataFinal=31/12/1994",
+          "sha256": "9e28b5e1b4f9e0bef6bf9fe015728bdde9fb89c52cb8ac59eec08cb6aa62355d",
+          "bytes": 4503
+        },
+        {
+          "path": "reservas/1995-01_2004-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json&dataInicial=01/01/1995&dataFinal=31/12/2004",
+          "sha256": "e37b05dd5f5761b39e8f2f1e4d4b207e796578d30c1ef10224d8ad45628adc52",
+          "bytes": 4561
+        },
+        {
+          "path": "reservas/2005-01_2014-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json&dataInicial=01/01/2005&dataFinal=31/12/2014",
+          "sha256": "a2735b0c6e2fda0071c18785f7b7024dbb1351ba38196c6926fb759a8b4d8435",
+          "bytes": 4656
+        },
+        {
+          "path": "reservas/2015-01_2024-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json&dataInicial=01/01/2015&dataFinal=31/12/2024",
+          "sha256": "bbeda8a93e5b0c24179a5a87eecffd5d9bdf56d87f0ac69204a4527e489e45b7",
+          "bytes": 4681
+        },
+        {
+          "path": "reservas/2025-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json&dataInicial=01/01/2025&dataFinal=31/10/2026",
+          "sha256": "f6cfcbaefc70422ec5d27e74705d9b239d55e2617b20f14eee0d2b7f839864fe",
+          "bytes": 820
+        }
+      ]
+    },
+    "salarioMinimo": {
+      "fetchedAt": "2026-10-12T21:43:27.688Z",
+      "files": [
+        {
+          "path": "salarioMinimo/1994-07_2003-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1619/dados?formato=json&dataInicial=01/07/1994&dataFinal=31/12/2003",
+          "sha256": "4a74f5b266227ec38a25b7f56acd09a23c5ea43a76b7bde339d546f145dc2a9b",
+          "bytes": 4437
+        },
+        {
+          "path": "salarioMinimo/2004-01_2013-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1619/dados?formato=json&dataInicial=01/01/2004&dataFinal=31/12/2013",
+          "sha256": "5924a95481b50ebecf0ffc5a457b1241d4c3d832458db392807012f6fec8a548",
+          "bytes": 4681
+        },
+        {
+          "path": "salarioMinimo/2014-01_2023-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1619/dados?formato=json&dataInicial=01/01/2014&dataFinal=31/12/2023",
+          "sha256": "6b46336b02ae35b147c9dc2ea4d1fbad4b08d2c46a4f10ad0e0be0b9270646fe",
+          "bytes": 4729
+        },
+        {
+          "path": "salarioMinimo/2024-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1619/dados?formato=json&dataInicial=01/01/2024&dataFinal=31/10/2026",
+          "sha256": "760fca95c5923931ba588fccbe2c534a849cc23973a09b919d6cf71069368dc8",
+          "bytes": 1361
+        }
+      ]
+    },
+    "selic": {
+      "fetchedAt": "2026-10-12T21:43:21.942Z",
+      "files": [
+        {
+          "path": "selic/1986-07_1995-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json&dataInicial=01/07/1986&dataFinal=31/12/1995",
+          "sha256": "9cc6e46c7e0cc847d821aa5841cc0a37edfc231950dcb597d95745be6b288edf",
+          "bytes": 4446
+        },
+        {
+          "path": "selic/1996-01_2005-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json&dataInicial=01/01/1996&dataFinal=31/12/2005",
+          "sha256": "a06d77ec83aa3a515a86d72d265cd1176f9c6b5fc28809421e5b4bcb831d9e48",
+          "bytes": 4561
+        },
+        {
+          "path": "selic/2006-01_2015-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json&dataInicial=01/01/2006&dataFinal=31/12/2015",
+          "sha256": "f7081aaf05f516b74a2b4fe4a13a2f743aa91621bbf0fb66ab2b607581f765e6",
+          "bytes": 4526
+        },
+        {
+          "path": "selic/2016-01_2025-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json&dataInicial=01/01/2016&dataFinal=31/12/2025",
+          "sha256": "1d9728b8b615cbf5fba9443e5b44af61e280b001d8b038f80e0b22fa69783ab7",
+          "bytes": 4507
+        },
+        {
+          "path": "selic/2026-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json&dataInicial=01/01/2026&dataFinal=31/10/2026",
+          "sha256": "12d62733b187bd6e8d18d69f15625c985f69c23749e80b5f08c67623aaef9214",
+          "bytes": 381
+        }
+      ]
+    }
+  }
+}

@@ -1,53 +1,242 @@
 {
   "$comment": "Gerado por `pnpm data:build` a partir de data/raw. Não edite à mão: rode o pipeline e confira com `pnpm data:verify`.",
   "schemaVersion": 1,
-  "generatedAt": null,
-  "asOf": null,
+  "generatedAt": "2026-10-12T21:43:35.016Z",
+  "asOf": "2026-10",
   "sources": {
     "ipca": {
-      "status": "missing",
-      "fetchedAt": null,
+      "status": "rejected",
+      "fetchedAt": "2026-10-12T21:43:15.602Z",
       "first": null,
       "last": null,
       "count": 0,
-      "files": [],
-      "anchors": []
+      "files": [
+        {
+          "path": "ipca/1980-01_1989-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/1980&dataFinal=31/12/1989",
+          "sha256": "132ec09ed672ef51957cc8037f5b5b7fd376f09a4e65bf23802b768f73374dd0"
+        },
+        {
+          "path": "ipca/1990-01_1999-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/1990&dataFinal=31/12/1999",
+          "sha256": "c881ca2856e5a7e11b7eabb8f7203b0f941eda2f222d0e97eb772027efad6781"
+        },
+        {
+          "path": "ipca/2000-01_2009-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/2000&dataFinal=31/12/2009",
+          "sha256": "2ba49dbe469df995989ee491afe4d66769626987abead99e34e3e1126167f998"
+        },
+        {
+          "path": "ipca/2010-01_2019-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/2010&dataFinal=31/12/2019",
+          "sha256": "74772c8ad048d7446f3da29c19f9a38e9faa2f538d0649791581b9bd29d54a65"
+        },
+        {
+          "path": "ipca/2020-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/2020&dataFinal=31/10/2026",
+          "sha256": "76ef33b6820ac61e5fbab4a81861d504b27b0aa53f607d4a44f9de2ec094895d"
+        }
+      ],
+      "anchors": [],
+      "problem": "Unexpected token '<', \"<?xml vers\"... is not valid JSON"
     },
     "pib": {
-      "status": "missing",
-      "fetchedAt": null,
-      "first": null,
-      "last": null,
-      "count": 0,
-      "files": [],
-      "anchors": []
+      "status": "ok",
+      "fetchedAt": "2026-10-12T21:43:17.829Z",
+      "first": "1980",
+      "last": "2025",
+      "count": 46,
+      "files": [
+        {
+          "path": "pib/1980_1989.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json&dataInicial=01/01/1980&dataFinal=31/12/1989",
+          "sha256": "9c24d3c4ac1ce7ec1a6c43ea3bdc778dd654081468aec03c59a912d30eaad7f1"
+        },
+        {
+          "path": "pib/1990_1999.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json&dataInicial=01/01/1990&dataFinal=31/12/1999",
+          "sha256": "e1ffe12890ced843e9f5604fd95021d36f25e43b131df8d10cef60c6f0fb15c1"
+        },
+        {
+          "path": "pib/2000_2009.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json&dataInicial=01/01/2000&dataFinal=31/12/2009",
+          "sha256": "6f231173179ad843dacc92fd52cd9e78e9c00872acbee613aef0609b11eacf79"
+        },
+        {
+          "path": "pib/2010_2019.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json&dataInicial=01/01/2010&dataFinal=31/12/2019",
+          "sha256": "836ff99bb7d605edfd25f26ac684e889933d9046e9dd3ccd3ed63a5e648bf39c"
+        },
+        {
+          "path": "pib/2020_2026.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.7326/dados?formato=json&dataInicial=01/01/2020&dataFinal=31/12/2026",
+          "sha256": "828f4e24972d5c75a3e07b982d9bc6bb08bbef915462674d5545b95606f672cb"
+        }
+      ],
+      "anchors": [
+        {
+          "date": "2010",
+          "min": 7,
+          "max": 7.7,
+          "reference": "PIB 2010: +7,5% (IBGE)",
+          "actual": 7.53,
+          "ok": true
+        },
+        {
+          "date": "2020",
+          "min": -4.5,
+          "max": -3,
+          "reference": "PIB 2020: −3,3% (IBGE, revisado)",
+          "actual": -3.28,
+          "ok": true
+        }
+      ]
     },
     "selic": {
-      "status": "missing",
-      "fetchedAt": null,
-      "first": null,
-      "last": null,
-      "count": 0,
-      "files": [],
-      "anchors": []
+      "status": "ok",
+      "fetchedAt": "2026-10-12T21:43:21.942Z",
+      "first": "1986-08",
+      "last": "2026-10",
+      "count": 483,
+      "files": [
+        {
+          "path": "selic/1986-07_1995-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json&dataInicial=01/07/1986&dataFinal=31/12/1995",
+          "sha256": "9cc6e46c7e0cc847d821aa5841cc0a37edfc231950dcb597d95745be6b288edf"
+        },
+        {
+          "path": "selic/1996-01_2005-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json&dataInicial=01/01/1996&dataFinal=31/12/2005",
+          "sha256": "a06d77ec83aa3a515a86d72d265cd1176f9c6b5fc28809421e5b4bcb831d9e48"
+        },
+        {
+          "path": "selic/2006-01_2015-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json&dataInicial=01/01/2006&dataFinal=31/12/2015",
+          "sha256": "f7081aaf05f516b74a2b4fe4a13a2f743aa91621bbf0fb66ab2b607581f765e6"
+        },
+        {
+          "path": "selic/2016-01_2025-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json&dataInicial=01/01/2016&dataFinal=31/12/2025",
+          "sha256": "1d9728b8b615cbf5fba9443e5b44af61e280b001d8b038f80e0b22fa69783ab7"
+        },
+        {
+          "path": "selic/2026-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4189/dados?formato=json&dataInicial=01/01/2026&dataFinal=31/10/2026",
+          "sha256": "12d62733b187bd6e8d18d69f15625c985f69c23749e80b5f08c67623aaef9214"
+        }
+      ],
+      "anchors": [
+        {
+          "date": "2002-12",
+          "min": 22,
+          "max": 26,
+          "reference": "Meta Selic em dez/2002: 25% a.a. (Copom)",
+          "actual": 23.03,
+          "ok": true
+        },
+        {
+          "date": "2021-01",
+          "min": 1.8,
+          "max": 2.2,
+          "reference": "Meta Selic em jan/2021: 2% a.a. (Copom)",
+          "actual": 1.9,
+          "ok": true
+        }
+      ]
     },
     "dolar": {
-      "status": "missing",
-      "fetchedAt": null,
-      "first": null,
-      "last": null,
-      "count": 0,
-      "files": [],
-      "anchors": []
+      "status": "ok",
+      "fetchedAt": "2026-10-12T21:43:25.111Z",
+      "first": "1994-07",
+      "last": "2026-09",
+      "count": 387,
+      "files": [
+        {
+          "path": "dolar/1994-07_2003-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3696/dados?formato=json&dataInicial=01/07/1994&dataFinal=31/12/2003",
+          "sha256": "c96d6db3635c1788929e5210b92d90669ea21142368c15ee116a816e6a1c099b"
+        },
+        {
+          "path": "dolar/2004-01_2013-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3696/dados?formato=json&dataInicial=01/01/2004&dataFinal=31/12/2013",
+          "sha256": "1cc1ec28fad581bf0e8b9224a05a0cdad39d4ab09f6b20010c1423206abff273"
+        },
+        {
+          "path": "dolar/2014-01_2023-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3696/dados?formato=json&dataInicial=01/01/2014&dataFinal=31/12/2023",
+          "sha256": "1a20b305a69a2f6d1d245e9b98a052d52b482944c87861e31e9a95599a8e0c99"
+        },
+        {
+          "path": "dolar/2024-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3696/dados?formato=json&dataInicial=01/01/2024&dataFinal=31/10/2026",
+          "sha256": "bbad11041920adb9ce791878c3d3a1998dcf47c5cf110b21bd4c61ecd08e3e8d"
+        }
+      ],
+      "anchors": [
+        {
+          "date": "2002-12",
+          "min": 3.4,
+          "max": 3.7,
+          "reference": "PTAX venda em 31/12/2002: R$ 3,53",
+          "actual": 3.5333,
+          "ok": true
+        },
+        {
+          "date": "2020-12",
+          "min": 5.1,
+          "max": 5.3,
+          "reference": "PTAX venda em 31/12/2020: R$ 5,20",
+          "actual": 5.1967,
+          "ok": true
+        }
+      ]
     },
     "salarioMinimo": {
-      "status": "missing",
-      "fetchedAt": null,
-      "first": null,
-      "last": null,
-      "count": 0,
-      "files": [],
-      "anchors": []
+      "status": "ok",
+      "fetchedAt": "2026-10-12T21:43:27.688Z",
+      "first": "1994-07",
+      "last": "2026-10",
+      "count": 388,
+      "files": [
+        {
+          "path": "salarioMinimo/1994-07_2003-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1619/dados?formato=json&dataInicial=01/07/1994&dataFinal=31/12/2003",
+          "sha256": "4a74f5b266227ec38a25b7f56acd09a23c5ea43a76b7bde339d546f145dc2a9b"
+        },
+        {
+          "path": "salarioMinimo/2004-01_2013-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1619/dados?formato=json&dataInicial=01/01/2004&dataFinal=31/12/2013",
+          "sha256": "5924a95481b50ebecf0ffc5a457b1241d4c3d832458db392807012f6fec8a548"
+        },
+        {
+          "path": "salarioMinimo/2014-01_2023-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1619/dados?formato=json&dataInicial=01/01/2014&dataFinal=31/12/2023",
+          "sha256": "6b46336b02ae35b147c9dc2ea4d1fbad4b08d2c46a4f10ad0e0be0b9270646fe"
+        },
+        {
+          "path": "salarioMinimo/2024-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1619/dados?formato=json&dataInicial=01/01/2024&dataFinal=31/10/2026",
+          "sha256": "760fca95c5923931ba588fccbe2c534a849cc23973a09b919d6cf71069368dc8"
+        }
+      ],
+      "anchors": [
+        {
+          "date": "2003-05",
+          "min": 240,
+          "max": 240,
+          "reference": "Salário mínimo a partir de abr/2003: R$ 240",
+          "actual": 240,
+          "ok": true
+        },
+        {
+          "date": "2023-01",
+          "min": 1302,
+          "max": 1302,
+          "reference": "Salário mínimo em jan/2023: R$ 1.302",
+          "actual": 1302,
+          "ok": true
+        }
+      ]
     },
     "desocupacao": {
       "status": "missing",
@@ -59,31 +248,116 @@
       "anchors": []
     },
     "dlsp": {
-      "status": "missing",
-      "fetchedAt": null,
-      "first": null,
-      "last": null,
-      "count": 0,
-      "files": [],
-      "anchors": []
+      "status": "ok",
+      "fetchedAt": "2026-10-12T21:43:29.945Z",
+      "first": "2001-12",
+      "last": "2026-08",
+      "count": 297,
+      "files": [
+        {
+          "path": "dlsp/2001-12_2010-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json&dataInicial=01/12/2001&dataFinal=31/12/2010",
+          "sha256": "cd0d60293f6ff16d97418ea55fd9ceaf1e05c1d24d17dfc9e4626f157c7c7a2e"
+        },
+        {
+          "path": "dlsp/2011-01_2020-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json&dataInicial=01/01/2011&dataFinal=31/12/2020",
+          "sha256": "002b18e5c5c26969a61f33c14a305ebd68416704ffb5373dfd5ff52c9b8cfb2b"
+        },
+        {
+          "path": "dlsp/2021-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.4513/dados?formato=json&dataInicial=01/01/2021&dataFinal=31/10/2026",
+          "sha256": "d7316805b001c2d21e4ac4c8d892613a363b41041ebf54faa43eceaa839eeb74"
+        }
+      ],
+      "anchors": [
+        {
+          "date": "2002-12",
+          "min": 50,
+          "max": 65,
+          "reference": "DLSP em dez/2002: cerca de 60% do PIB (BCB)",
+          "actual": 59.93,
+          "ok": true
+        }
+      ]
     },
     "dbgg": {
-      "status": "missing",
-      "fetchedAt": null,
-      "first": null,
-      "last": null,
-      "count": 0,
-      "files": [],
-      "anchors": []
+      "status": "ok",
+      "fetchedAt": "2026-10-12T21:43:31.809Z",
+      "first": "2006-12",
+      "last": "2026-08",
+      "count": 237,
+      "files": [
+        {
+          "path": "dbgg/2006-12_2015-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/12/2006&dataFinal=31/12/2015",
+          "sha256": "1f35005ded37a2b5621fe399b64d7eeb1d2b461b710a6862d4657e8531f2011c"
+        },
+        {
+          "path": "dbgg/2016-01_2025-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/01/2016&dataFinal=31/12/2025",
+          "sha256": "4e92e9f5c4350713cef2366365d27afcb7f738cb109914de4f1522fd2f323163"
+        },
+        {
+          "path": "dbgg/2026-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=json&dataInicial=01/01/2026&dataFinal=31/10/2026",
+          "sha256": "a4f786dbebebf6764c53e99c549ea450b13e81aa47bbdd065c9d569986bc39cb"
+        }
+      ],
+      "anchors": [
+        {
+          "date": "2022-12",
+          "min": 68,
+          "max": 78,
+          "reference": "DBGG em dez/2022: cerca de 72% do PIB (BCB)",
+          "actual": 71.68,
+          "ok": true
+        }
+      ]
     },
     "reservas": {
-      "status": "missing",
-      "fetchedAt": null,
-      "first": null,
-      "last": null,
-      "count": 0,
-      "files": [],
-      "anchors": []
+      "status": "ok",
+      "fetchedAt": "2026-10-12T21:43:35.016Z",
+      "first": "1985-01",
+      "last": "2026-09",
+      "count": 501,
+      "files": [
+        {
+          "path": "reservas/1985-01_1994-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json&dataInicial=01/01/1985&dataFinal=31/12/1994",
+          "sha256": "9e28b5e1b4f9e0bef6bf9fe015728bdde9fb89c52cb8ac59eec08cb6aa62355d"
+        },
+        {
+          "path": "reservas/1995-01_2004-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json&dataInicial=01/01/1995&dataFinal=31/12/2004",
+          "sha256": "e37b05dd5f5761b39e8f2f1e4d4b207e796578d30c1ef10224d8ad45628adc52"
+        },
+        {
+          "path": "reservas/2005-01_2014-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json&dataInicial=01/01/2005&dataFinal=31/12/2014",
+          "sha256": "a2735b0c6e2fda0071c18785f7b7024dbb1351ba38196c6926fb759a8b4d8435"
+        },
+        {
+          "path": "reservas/2015-01_2024-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json&dataInicial=01/01/2015&dataFinal=31/12/2024",
+          "sha256": "bbeda8a93e5b0c24179a5a87eecffd5d9bdf56d87f0ac69204a4527e489e45b7"
+        },
+        {
+          "path": "reservas/2025-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.3546/dados?formato=json&dataInicial=01/01/2025&dataFinal=31/10/2026",
+          "sha256": "f6cfcbaefc70422ec5d27e74705d9b239d55e2617b20f14eee0d2b7f839864fe"
+        }
+      ],
+      "anchors": [
+        {
+          "date": "2010-12",
+          "min": 250000,
+          "max": 320000,
+          "reference": "Reservas em dez/2010: cerca de US$ 289 bilhões (BCB)",
+          "actual": 288575,
+          "ok": true
+        }
+      ]
     }
   },
   "results": {
@@ -91,1650 +365,6406 @@
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 4.352059,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "1985",
+                7.85
+              ],
+              [
+                "1986",
+                7.49
+              ],
+              [
+                "1987",
+                3.53
+              ],
+              [
+                "1988",
+                -0.06
+              ],
+              [
+                "1989",
+                3.16
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 23.738573,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "1985",
+                7.85
+              ],
+              [
+                "1986",
+                7.49
+              ],
+              [
+                "1987",
+                3.53
+              ],
+              [
+                "1988",
+                -0.06
+              ],
+              [
+                "1989",
+                3.16
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de jul/1994; sem valor herdado em mar/1985.",
         "inputs": []
       },
       "salario_minimo_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de jul/1994.",
         "inputs": []
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 3507.42,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "1990-03",
+                3507.42
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de ago/1986.",
         "inputs": []
       },
       "dolar_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de jul/1994.",
         "inputs": []
       },
       "dolar_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de jul/1994; sem valor herdado em mar/1985.",
         "inputs": []
       },
       "dlsp_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2001.",
         "inputs": []
       },
       "dlsp_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2001; sem valor herdado em mar/1985.",
         "inputs": []
       },
       "dbgg_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2006.",
         "inputs": []
       },
       "dbgg_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2006; sem valor herdado em mar/1985.",
         "inputs": []
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 7.385,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "1990-03",
+                7385
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -4.069,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "1985-03",
+                11454
+              ],
+              [
+                "1990-03",
+                7385
+              ]
+            ]
+          }
+        ]
       }
     },
     "collor": {
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -1.312701,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "1990",
+                -4.35
+              ],
+              [
+                "1991",
+                1.03
+              ],
+              [
+                "1992",
+                -0.54
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -3.886635,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "1990",
+                -4.35
+              ],
+              [
+                "1991",
+                1.03
+              ],
+              [
+                "1992",
+                -0.54
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de jul/1994; sem valor herdado em mar/1990.",
         "inputs": []
       },
       "salario_minimo_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de jul/1994.",
         "inputs": []
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 1866.66,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "1992-10",
+                1866.66
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 991.990323,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "1990-04",
+                73.21
+              ],
+              [
+                "1990-05",
+                88.57
+              ],
+              [
+                "1990-06",
+                187.11
+              ],
+              [
+                "1990-07",
+                339.35
+              ],
+              [
+                "1990-08",
+                230.48
+              ],
+              [
+                "1990-09",
+                554.26
+              ],
+              [
+                "1990-10",
+                524.39
+              ],
+              [
+                "1990-11",
+                877.02
+              ],
+              [
+                "1990-12",
+                1237.94
+              ],
+              [
+                "1991-01",
+                789.54
+              ],
+              [
+                "1991-02",
+                166.94
+              ],
+              [
+                "1991-03",
+                213.32
+              ],
+              [
+                "1991-04",
+                187.77
+              ],
+              [
+                "1991-05",
+                198.99
+              ],
+              [
+                "1991-06",
+                244.79
+              ],
+              [
+                "1991-07",
+                259.48
+              ],
+              [
+                "1991-08",
+                434.02
+              ],
+              [
+                "1991-09",
+                772.46
+              ],
+              [
+                "1991-10",
+                1152.41
+              ],
+              [
+                "1991-11",
+                3343.48
+              ],
+              [
+                "1991-12",
+                2495.22
+              ],
+              [
+                "1992-01",
+                1757.41
+              ],
+              [
+                "1992-02",
+                2316.07
+              ],
+              [
+                "1992-03",
+                1903.48
+              ],
+              [
+                "1992-04",
+                1619.83
+              ],
+              [
+                "1992-05",
+                1257.14
+              ],
+              [
+                "1992-06",
+                1257.75
+              ],
+              [
+                "1992-07",
+                1181.45
+              ],
+              [
+                "1992-08",
+                1447.92
+              ],
+              [
+                "1992-09",
+                1773.24
+              ],
+              [
+                "1992-10",
+                1866.66
+              ]
+            ]
+          }
+        ]
       },
       "dolar_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de jul/1994.",
         "inputs": []
       },
       "dolar_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de jul/1994; sem valor herdado em mar/1990.",
         "inputs": []
       },
       "dlsp_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2001.",
         "inputs": []
       },
       "dlsp_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2001; sem valor herdado em mar/1990.",
         "inputs": []
       },
       "dbgg_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2006.",
         "inputs": []
       },
       "dbgg_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2006; sem valor herdado em mar/1990.",
         "inputs": []
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 24.124,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "1992-10",
+                24124
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 16.739,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "1990-03",
+                7385
+              ],
+              [
+                "1992-10",
+                24124
+              ]
+            ]
+          }
+        ]
       }
     },
     "itamar": {
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 5.383974,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "1993",
+                4.92
+              ],
+              [
+                "1994",
+                5.85
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 11.05782,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "1993",
+                4.92
+              ],
+              [
+                "1994",
+                5.85
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de jul/1994; sem valor herdado em out/1992.",
         "inputs": []
       },
       "salario_minimo_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 70,
+        "inputs": [
+          {
+            "series": "salarioMinimo",
+            "points": [
+              [
+                "1994-12",
+                70
+              ]
+            ]
+          }
+        ]
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 53.25,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "1994-12",
+                53.25
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 4266.605769,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "1992-11",
+                1815.18
+              ],
+              [
+                "1992-12",
+                1300.85
+              ],
+              [
+                "1993-01",
+                2259.56
+              ],
+              [
+                "1993-02",
+                3397.11
+              ],
+              [
+                "1993-03",
+                1441.34
+              ],
+              [
+                "1993-04",
+                3326.22
+              ],
+              [
+                "1993-05",
+                2430.28
+              ],
+              [
+                "1993-06",
+                2676.49
+              ],
+              [
+                "1993-07",
+                2461.37
+              ],
+              [
+                "1993-08",
+                2916.19
+              ],
+              [
+                "1993-09",
+                4359.96
+              ],
+              [
+                "1993-10",
+                5902.32
+              ],
+              [
+                "1993-11",
+                5892.16
+              ],
+              [
+                "1993-12",
+                4010.32
+              ],
+              [
+                "1994-01",
+                7065.02
+              ],
+              [
+                "1994-02",
+                13442.03
+              ],
+              [
+                "1994-03",
+                7784.35
+              ],
+              [
+                "1994-04",
+                15710.86
+              ],
+              [
+                "1994-05",
+                8784.03
+              ],
+              [
+                "1994-06",
+                13532.65
+              ],
+              [
+                "1994-07",
+                131.03
+              ],
+              [
+                "1994-08",
+                56.46
+              ],
+              [
+                "1994-09",
+                57.06
+              ],
+              [
+                "1994-10",
+                60.3
+              ],
+              [
+                "1994-11",
+                65.36
+              ],
+              [
+                "1994-12",
+                53.25
+              ]
+            ]
+          }
+        ]
       },
       "dolar_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 0.846,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "1994-12",
+                0.846
+              ]
+            ]
+          }
+        ]
       },
       "dolar_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de jul/1994; sem valor herdado em out/1992.",
         "inputs": []
       },
       "dlsp_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2001.",
         "inputs": []
       },
       "dlsp_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2001; sem valor herdado em out/1992.",
         "inputs": []
       },
       "dbgg_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2006.",
         "inputs": []
       },
       "dbgg_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2006; sem valor herdado em out/1992.",
         "inputs": []
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 38.806,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "1994-12",
+                38806
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 14.682,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "1992-10",
+                24124
+              ],
+              [
+                "1994-12",
+                38806
+              ]
+            ]
+          }
+        ]
       }
     },
     "fhc-1": {
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 2.529602,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "1995",
+                4.22
+              ],
+              [
+                "1996",
+                2.21
+              ],
+              [
+                "1997",
+                3.39
+              ],
+              [
+                "1998",
+                0.34
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 10.508858,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "1995",
+                4.22
+              ],
+              [
+                "1996",
+                2.21
+              ],
+              [
+                "1997",
+                3.39
+              ],
+              [
+                "1998",
+                0.34
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série do deflator ainda não baixada.",
         "inputs": []
       },
       "salario_minimo_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 130,
+        "inputs": [
+          {
+            "series": "salarioMinimo",
+            "points": [
+              [
+                "1998-12",
+                130
+              ]
+            ]
+          }
+        ]
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 31.24,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "1998-12",
+                31.24
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 34.299792,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "1995-01",
+                46.25
+              ],
+              [
+                "1995-02",
+                56.54
+              ],
+              [
+                "1995-03",
+                57.98
+              ],
+              [
+                "1995-04",
+                85.47
+              ],
+              [
+                "1995-05",
+                61.05
+              ],
+              [
+                "1995-06",
+                60.84
+              ],
+              [
+                "1995-07",
+                60.53
+              ],
+              [
+                "1995-08",
+                51.11
+              ],
+              [
+                "1995-09",
+                51
+              ],
+              [
+                "1995-10",
+                44.11
+              ],
+              [
+                "1995-11",
+                42.93
+              ],
+              [
+                "1995-12",
+                41.22
+              ],
+              [
+                "1996-01",
+                33.83
+              ],
+              [
+                "1996-02",
+                36.11
+              ],
+              [
+                "1996-03",
+                30.16
+              ],
+              [
+                "1996-04",
+                29.42
+              ],
+              [
+                "1996-05",
+                25.64
+              ],
+              [
+                "1996-06",
+                29.65
+              ],
+              [
+                "1996-07",
+                23.28
+              ],
+              [
+                "1996-08",
+                25.01
+              ],
+              [
+                "1996-09",
+                25.4
+              ],
+              [
+                "1996-10",
+                23.48
+              ],
+              [
+                "1996-11",
+                25.27
+              ],
+              [
+                "1996-12",
+                23.94
+              ],
+              [
+                "1997-01",
+                21.73
+              ],
+              [
+                "1997-02",
+                26.14
+              ],
+              [
+                "1997-03",
+                24.11
+              ],
+              [
+                "1997-04",
+                21.84
+              ],
+              [
+                "1997-05",
+                21.91
+              ],
+              [
+                "1997-06",
+                21.08
+              ],
+              [
+                "1997-07",
+                19.04
+              ],
+              [
+                "1997-08",
+                20.78
+              ],
+              [
+                "1997-09",
+                19.81
+              ],
+              [
+                "1997-10",
+                19.93
+              ],
+              [
+                "1997-11",
+                45.9
+              ],
+              [
+                "1997-12",
+                39.87
+              ],
+              [
+                "1998-01",
+                37.19
+              ],
+              [
+                "1998-02",
+                34.32
+              ],
+              [
+                "1998-03",
+                28.32
+              ],
+              [
+                "1998-04",
+                25.16
+              ],
+              [
+                "1998-05",
+                22.6
+              ],
+              [
+                "1998-06",
+                21.02
+              ],
+              [
+                "1998-07",
+                20.33
+              ],
+              [
+                "1998-08",
+                19.23
+              ],
+              [
+                "1998-09",
+                34.29
+              ],
+              [
+                "1998-10",
+                41.6
+              ],
+              [
+                "1998-11",
+                38.73
+              ],
+              [
+                "1998-12",
+                31.24
+              ]
+            ]
+          }
+        ]
       },
       "dolar_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 1.2087,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "1998-12",
+                1.2087
+              ]
+            ]
+          }
+        ]
       },
       "dolar_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 42.87234,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "1994-12",
+                0.846
+              ],
+              [
+                "1998-12",
+                1.2087
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2001.",
         "inputs": []
       },
       "dlsp_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2001; sem valor herdado em dez/1994.",
         "inputs": []
       },
       "dbgg_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2006.",
         "inputs": []
       },
       "dbgg_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2006; sem valor herdado em dez/1994.",
         "inputs": []
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 44.556,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "1998-12",
+                44556
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 5.75,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "1994-12",
+                38806
+              ],
+              [
+                "1998-12",
+                44556
+              ]
+            ]
+          }
+        ]
       }
     },
     "fhc-2": {
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 2.313892,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "1999",
+                0.47
+              ],
+              [
+                "2000",
+                4.39
+              ],
+              [
+                "2001",
+                1.39
+              ],
+              [
+                "2002",
+                3.05
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 9.581797,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "1999",
+                0.47
+              ],
+              [
+                "2000",
+                4.39
+              ],
+              [
+                "2001",
+                1.39
+              ],
+              [
+                "2002",
+                3.05
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série do deflator ainda não baixada.",
         "inputs": []
       },
       "salario_minimo_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 200,
+        "inputs": [
+          {
+            "series": "salarioMinimo",
+            "points": [
+              [
+                "2002-12",
+                200
+              ]
+            ]
+          }
+        ]
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 23.03,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2002-12",
+                23.03
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 20.107292,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "1999-01",
+                31.19
+              ],
+              [
+                "1999-02",
+                38.97
+              ],
+              [
+                "1999-03",
+                43.25
+              ],
+              [
+                "1999-04",
+                36.12
+              ],
+              [
+                "1999-05",
+                27.11
+              ],
+              [
+                "1999-06",
+                22.01
+              ],
+              [
+                "1999-07",
+                20.74
+              ],
+              [
+                "1999-08",
+                19.51
+              ],
+              [
+                "1999-09",
+                19.38
+              ],
+              [
+                "1999-10",
+                18.91
+              ],
+              [
+                "1999-11",
+                18.95
+              ],
+              [
+                "1999-12",
+                18.99
+              ],
+              [
+                "2000-01",
+                18.94
+              ],
+              [
+                "2000-02",
+                18.87
+              ],
+              [
+                "2000-03",
+                18.85
+              ],
+              [
+                "2000-04",
+                18.62
+              ],
+              [
+                "2000-05",
+                18.51
+              ],
+              [
+                "2000-06",
+                18.04
+              ],
+              [
+                "2000-07",
+                16.85
+              ],
+              [
+                "2000-08",
+                16.52
+              ],
+              [
+                "2000-09",
+                16.56
+              ],
+              [
+                "2000-10",
+                16.6
+              ],
+              [
+                "2000-11",
+                16.51
+              ],
+              [
+                "2000-12",
+                16.19
+              ],
+              [
+                "2001-01",
+                15.49
+              ],
+              [
+                "2001-02",
+                15.2
+              ],
+              [
+                "2001-03",
+                15.39
+              ],
+              [
+                "2001-04",
+                16.02
+              ],
+              [
+                "2001-05",
+                16.43
+              ],
+              [
+                "2001-06",
+                17.28
+              ],
+              [
+                "2001-07",
+                18.57
+              ],
+              [
+                "2001-08",
+                19
+              ],
+              [
+                "2001-09",
+                19.06
+              ],
+              [
+                "2001-10",
+                19.06
+              ],
+              [
+                "2001-11",
+                19.05
+              ],
+              [
+                "2001-12",
+                19.05
+              ],
+              [
+                "2002-01",
+                19.05
+              ],
+              [
+                "2002-02",
+                18.97
+              ],
+              [
+                "2002-03",
+                18.72
+              ],
+              [
+                "2002-04",
+                18.38
+              ],
+              [
+                "2002-05",
+                18.37
+              ],
+              [
+                "2002-06",
+                18.1
+              ],
+              [
+                "2002-07",
+                18.17
+              ],
+              [
+                "2002-08",
+                17.84
+              ],
+              [
+                "2002-09",
+                17.89
+              ],
+              [
+                "2002-10",
+                19.59
+              ],
+              [
+                "2002-11",
+                21.25
+              ],
+              [
+                "2002-12",
+                23.03
+              ]
+            ]
+          }
+        ]
       },
       "dolar_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 3.5333,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2002-12",
+                3.5333
+              ]
+            ]
+          }
+        ]
       },
       "dolar_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 192.32233,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "1998-12",
+                1.2087
+              ],
+              [
+                "2002-12",
+                3.5333
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 59.93,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2002-12",
+                59.93
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2001; sem valor herdado em dez/1998.",
         "inputs": []
       },
       "dbgg_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2006.",
         "inputs": []
       },
       "dbgg_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2006; sem valor herdado em dez/1998.",
         "inputs": []
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 37.823,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2002-12",
+                37823
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -6.733,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "1998-12",
+                44556
+              ],
+              [
+                "2002-12",
+                37823
+              ]
+            ]
+          }
+        ]
       }
     },
     "fhc-1-2": {
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 2.42169,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "1995",
+                4.22
+              ],
+              [
+                "1996",
+                2.21
+              ],
+              [
+                "1997",
+                3.39
+              ],
+              [
+                "1998",
+                0.34
+              ],
+              [
+                "1999",
+                0.47
+              ],
+              [
+                "2000",
+                4.39
+              ],
+              [
+                "2001",
+                1.39
+              ],
+              [
+                "2002",
+                3.05
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 21.097592,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "1995",
+                4.22
+              ],
+              [
+                "1996",
+                2.21
+              ],
+              [
+                "1997",
+                3.39
+              ],
+              [
+                "1998",
+                0.34
+              ],
+              [
+                "1999",
+                0.47
+              ],
+              [
+                "2000",
+                4.39
+              ],
+              [
+                "2001",
+                1.39
+              ],
+              [
+                "2002",
+                3.05
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série do deflator ainda não baixada.",
         "inputs": []
       },
       "salario_minimo_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 200,
+        "inputs": [
+          {
+            "series": "salarioMinimo",
+            "points": [
+              [
+                "2002-12",
+                200
+              ]
+            ]
+          }
+        ]
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 23.03,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2002-12",
+                23.03
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 27.203542,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "1995-01",
+                46.25
+              ],
+              [
+                "1995-02",
+                56.54
+              ],
+              [
+                "1995-03",
+                57.98
+              ],
+              [
+                "1995-04",
+                85.47
+              ],
+              [
+                "1995-05",
+                61.05
+              ],
+              [
+                "1995-06",
+                60.84
+              ],
+              [
+                "1995-07",
+                60.53
+              ],
+              [
+                "1995-08",
+                51.11
+              ],
+              [
+                "1995-09",
+                51
+              ],
+              [
+                "1995-10",
+                44.11
+              ],
+              [
+                "1995-11",
+                42.93
+              ],
+              [
+                "1995-12",
+                41.22
+              ],
+              [
+                "1996-01",
+                33.83
+              ],
+              [
+                "1996-02",
+                36.11
+              ],
+              [
+                "1996-03",
+                30.16
+              ],
+              [
+                "1996-04",
+                29.42
+              ],
+              [
+                "1996-05",
+                25.64
+              ],
+              [
+                "1996-06",
+                29.65
+              ],
+              [
+                "1996-07",
+                23.28
+              ],
+              [
+                "1996-08",
+                25.01
+              ],
+              [
+                "1996-09",
+                25.4
+              ],
+              [
+                "1996-10",
+                23.48
+              ],
+              [
+                "1996-11",
+                25.27
+              ],
+              [
+                "1996-12",
+                23.94
+              ],
+              [
+                "1997-01",
+                21.73
+              ],
+              [
+                "1997-02",
+                26.14
+              ],
+              [
+                "1997-03",
+                24.11
+              ],
+              [
+                "1997-04",
+                21.84
+              ],
+              [
+                "1997-05",
+                21.91
+              ],
+              [
+                "1997-06",
+                21.08
+              ],
+              [
+                "1997-07",
+                19.04
+              ],
+              [
+                "1997-08",
+                20.78
+              ],
+              [
+                "1997-09",
+                19.81
+              ],
+              [
+                "1997-10",
+                19.93
+              ],
+              [
+                "1997-11",
+                45.9
+              ],
+              [
+                "1997-12",
+                39.87
+              ],
+              [
+                "1998-01",
+                37.19
+              ],
+              [
+                "1998-02",
+                34.32
+              ],
+              [
+                "1998-03",
+                28.32
+              ],
+              [
+                "1998-04",
+                25.16
+              ],
+              [
+                "1998-05",
+                22.6
+              ],
+              [
+                "1998-06",
+                21.02
+              ],
+              [
+                "1998-07",
+                20.33
+              ],
+              [
+                "1998-08",
+                19.23
+              ],
+              [
+                "1998-09",
+                34.29
+              ],
+              [
+                "1998-10",
+                41.6
+              ],
+              [
+                "1998-11",
+                38.73
+              ],
+              [
+                "1998-12",
+                31.24
+              ],
+              [
+                "1999-01",
+                31.19
+              ],
+              [
+                "1999-02",
+                38.97
+              ],
+              [
+                "1999-03",
+                43.25
+              ],
+              [
+                "1999-04",
+                36.12
+              ],
+              [
+                "1999-05",
+                27.11
+              ],
+              [
+                "1999-06",
+                22.01
+              ],
+              [
+                "1999-07",
+                20.74
+              ],
+              [
+                "1999-08",
+                19.51
+              ],
+              [
+                "1999-09",
+                19.38
+              ],
+              [
+                "1999-10",
+                18.91
+              ],
+              [
+                "1999-11",
+                18.95
+              ],
+              [
+                "1999-12",
+                18.99
+              ],
+              [
+                "2000-01",
+                18.94
+              ],
+              [
+                "2000-02",
+                18.87
+              ],
+              [
+                "2000-03",
+                18.85
+              ],
+              [
+                "2000-04",
+                18.62
+              ],
+              [
+                "2000-05",
+                18.51
+              ],
+              [
+                "2000-06",
+                18.04
+              ],
+              [
+                "2000-07",
+                16.85
+              ],
+              [
+                "2000-08",
+                16.52
+              ],
+              [
+                "2000-09",
+                16.56
+              ],
+              [
+                "2000-10",
+                16.6
+              ],
+              [
+                "2000-11",
+                16.51
+              ],
+              [
+                "2000-12",
+                16.19
+              ],
+              [
+                "2001-01",
+                15.49
+              ],
+              [
+                "2001-02",
+                15.2
+              ],
+              [
+                "2001-03",
+                15.39
+              ],
+              [
+                "2001-04",
+                16.02
+              ],
+              [
+                "2001-05",
+                16.43
+              ],
+              [
+                "2001-06",
+                17.28
+              ],
+              [
+                "2001-07",
+                18.57
+              ],
+              [
+                "2001-08",
+                19
+              ],
+              [
+                "2001-09",
+                19.06
+              ],
+              [
+                "2001-10",
+                19.06
+              ],
+              [
+                "2001-11",
+                19.05
+              ],
+              [
+                "2001-12",
+                19.05
+              ],
+              [
+                "2002-01",
+                19.05
+              ],
+              [
+                "2002-02",
+                18.97
+              ],
+              [
+                "2002-03",
+                18.72
+              ],
+              [
+                "2002-04",
+                18.38
+              ],
+              [
+                "2002-05",
+                18.37
+              ],
+              [
+                "2002-06",
+                18.1
+              ],
+              [
+                "2002-07",
+                18.17
+              ],
+              [
+                "2002-08",
+                17.84
+              ],
+              [
+                "2002-09",
+                17.89
+              ],
+              [
+                "2002-10",
+                19.59
+              ],
+              [
+                "2002-11",
+                21.25
+              ],
+              [
+                "2002-12",
+                23.03
+              ]
+            ]
+          }
+        ]
       },
       "dolar_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 3.5333,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2002-12",
+                3.5333
+              ]
+            ]
+          }
+        ]
       },
       "dolar_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 317.647754,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "1994-12",
+                0.846
+              ],
+              [
+                "2002-12",
+                3.5333
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 59.93,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2002-12",
+                59.93
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2001; sem valor herdado em dez/1994.",
         "inputs": []
       },
       "dbgg_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2006.",
         "inputs": []
       },
       "dbgg_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2006; sem valor herdado em dez/1994.",
         "inputs": []
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 37.823,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2002-12",
+                37823
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -0.983,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "1994-12",
+                38806
+              ],
+              [
+                "2002-12",
+                37823
+              ]
+            ]
+          }
+        ]
       }
     },
     "lula-1": {
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 3.501725,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2003",
+                1.14
+              ],
+              [
+                "2004",
+                5.76
+              ],
+              [
+                "2005",
+                3.2
+              ],
+              [
+                "2006",
+                3.96
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 14.759952,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2003",
+                1.14
+              ],
+              [
+                "2004",
+                5.76
+              ],
+              [
+                "2005",
+                3.2
+              ],
+              [
+                "2006",
+                3.96
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série do deflator ainda não baixada.",
         "inputs": []
       },
       "salario_minimo_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 350,
+        "inputs": [
+          {
+            "series": "salarioMinimo",
+            "points": [
+              [
+                "2006-12",
+                350
+              ]
+            ]
+          }
+        ]
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 13.19,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2006-12",
+                13.19
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 18.50375,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2003-01",
+                25.06
+              ],
+              [
+                "2003-02",
+                25.68
+              ],
+              [
+                "2003-03",
+                26.32
+              ],
+              [
+                "2003-04",
+                26.32
+              ],
+              [
+                "2003-05",
+                26.31
+              ],
+              [
+                "2003-06",
+                26.09
+              ],
+              [
+                "2003-07",
+                25.36
+              ],
+              [
+                "2003-08",
+                23.5
+              ],
+              [
+                "2003-09",
+                21.02
+              ],
+              [
+                "2003-10",
+                19.54
+              ],
+              [
+                "2003-11",
+                18.31
+              ],
+              [
+                "2003-12",
+                16.91
+              ],
+              [
+                "2004-01",
+                16.32
+              ],
+              [
+                "2004-02",
+                16.3
+              ],
+              [
+                "2004-03",
+                16.19
+              ],
+              [
+                "2004-04",
+                15.96
+              ],
+              [
+                "2004-05",
+                15.77
+              ],
+              [
+                "2004-06",
+                15.8
+              ],
+              [
+                "2004-07",
+                15.77
+              ],
+              [
+                "2004-08",
+                15.86
+              ],
+              [
+                "2004-09",
+                16.09
+              ],
+              [
+                "2004-10",
+                16.41
+              ],
+              [
+                "2004-11",
+                16.96
+              ],
+              [
+                "2004-12",
+                17.5
+              ],
+              [
+                "2005-01",
+                17.93
+              ],
+              [
+                "2005-02",
+                18.47
+              ],
+              [
+                "2005-03",
+                18.97
+              ],
+              [
+                "2005-04",
+                19.32
+              ],
+              [
+                "2005-05",
+                19.61
+              ],
+              [
+                "2005-06",
+                19.75
+              ],
+              [
+                "2005-07",
+                19.72
+              ],
+              [
+                "2005-08",
+                19.75
+              ],
+              [
+                "2005-09",
+                19.61
+              ],
+              [
+                "2005-10",
+                19.25
+              ],
+              [
+                "2005-11",
+                18.87
+              ],
+              [
+                "2005-12",
+                18.24
+              ],
+              [
+                "2006-01",
+                17.65
+              ],
+              [
+                "2006-02",
+                17.28
+              ],
+              [
+                "2006-03",
+                16.74
+              ],
+              [
+                "2006-04",
+                16.19
+              ],
+              [
+                "2006-05",
+                15.7
+              ],
+              [
+                "2006-06",
+                15.18
+              ],
+              [
+                "2006-07",
+                14.98
+              ],
+              [
+                "2006-08",
+                14.66
+              ],
+              [
+                "2006-09",
+                14.17
+              ],
+              [
+                "2006-10",
+                13.95
+              ],
+              [
+                "2006-11",
+                13.65
+              ],
+              [
+                "2006-12",
+                13.19
+              ]
+            ]
+          }
+        ]
       },
       "dolar_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 2.138,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2006-12",
+                2.138
+              ]
+            ]
+          }
+        ]
       },
       "dolar_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -39.489995,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2002-12",
+                3.5333
+              ],
+              [
+                "2006-12",
+                2.138
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 46.49,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2006-12",
+                46.49
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -13.44,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2002-12",
+                59.93
+              ],
+              [
+                "2006-12",
+                46.49
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 55.48,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2006-12",
+                55.48
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2006; sem valor herdado em dez/2002.",
         "inputs": []
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 85.839,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2006-12",
+                85839
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 48.016,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2002-12",
+                37823
+              ],
+              [
+                "2006-12",
+                85839
+              ]
+            ]
+          }
+        ]
       }
     },
     "lula-2": {
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 4.599513,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2007",
+                6.07
+              ],
+              [
+                "2008",
+                5.09
+              ],
+              [
+                "2009",
+                -0.13
+              ],
+              [
+                "2010",
+                7.53
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 19.706755,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2007",
+                6.07
+              ],
+              [
+                "2008",
+                5.09
+              ],
+              [
+                "2009",
+                -0.13
+              ],
+              [
+                "2010",
+                7.53
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série do deflator ainda não baixada.",
         "inputs": []
       },
       "salario_minimo_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 510,
+        "inputs": [
+          {
+            "series": "salarioMinimo",
+            "points": [
+              [
+                "2010-12",
+                510
+              ]
+            ]
+          }
+        ]
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 10.66,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2010-12",
+                10.66
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 11.05,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2007-01",
+                13.13
+              ],
+              [
+                "2007-02",
+                12.93
+              ],
+              [
+                "2007-03",
+                12.74
+              ],
+              [
+                "2007-04",
+                12.58
+              ],
+              [
+                "2007-05",
+                12.43
+              ],
+              [
+                "2007-06",
+                12.03
+              ],
+              [
+                "2007-07",
+                11.73
+              ],
+              [
+                "2007-08",
+                11.43
+              ],
+              [
+                "2007-09",
+                11.22
+              ],
+              [
+                "2007-10",
+                11.18
+              ],
+              [
+                "2007-11",
+                11.18
+              ],
+              [
+                "2007-12",
+                11.18
+              ],
+              [
+                "2008-01",
+                11.18
+              ],
+              [
+                "2008-02",
+                11.18
+              ],
+              [
+                "2008-03",
+                11.18
+              ],
+              [
+                "2008-04",
+                11.37
+              ],
+              [
+                "2008-05",
+                11.63
+              ],
+              [
+                "2008-06",
+                12.09
+              ],
+              [
+                "2008-07",
+                12.36
+              ],
+              [
+                "2008-08",
+                12.92
+              ],
+              [
+                "2008-09",
+                13.39
+              ],
+              [
+                "2008-10",
+                13.66
+              ],
+              [
+                "2008-11",
+                13.64
+              ],
+              [
+                "2008-12",
+                13.66
+              ],
+              [
+                "2009-01",
+                13.32
+              ],
+              [
+                "2009-02",
+                12.66
+              ],
+              [
+                "2009-03",
+                11.7
+              ],
+              [
+                "2009-04",
+                11.11
+              ],
+              [
+                "2009-05",
+                10.16
+              ],
+              [
+                "2009-06",
+                9.54
+              ],
+              [
+                "2009-07",
+                9.01
+              ],
+              [
+                "2009-08",
+                8.65
+              ],
+              [
+                "2009-09",
+                8.65
+              ],
+              [
+                "2009-10",
+                8.65
+              ],
+              [
+                "2009-11",
+                8.65
+              ],
+              [
+                "2009-12",
+                8.65
+              ],
+              [
+                "2010-01",
+                8.65
+              ],
+              [
+                "2010-02",
+                8.65
+              ],
+              [
+                "2010-03",
+                8.65
+              ],
+              [
+                "2010-04",
+                8.72
+              ],
+              [
+                "2010-05",
+                9.4
+              ],
+              [
+                "2010-06",
+                9.94
+              ],
+              [
+                "2010-07",
+                10.32
+              ],
+              [
+                "2010-08",
+                10.66
+              ],
+              [
+                "2010-09",
+                10.66
+              ],
+              [
+                "2010-10",
+                10.66
+              ],
+              [
+                "2010-11",
+                10.66
+              ],
+              [
+                "2010-12",
+                10.66
+              ]
+            ]
+          }
+        ]
       },
       "dolar_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 1.6662,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2010-12",
+                1.6662
+              ]
+            ]
+          }
+        ]
       },
       "dolar_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -22.067353,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2006-12",
+                2.138
+              ],
+              [
+                "2010-12",
+                1.6662
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 37.98,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2010-12",
+                37.98
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -8.51,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2006-12",
+                46.49
+              ],
+              [
+                "2010-12",
+                37.98
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 51.77,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2010-12",
+                51.77
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -3.71,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2006-12",
+                55.48
+              ],
+              [
+                "2010-12",
+                51.77
+              ]
+            ]
+          }
+        ]
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 288.575,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2010-12",
+                288575
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 202.736,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2006-12",
+                85839
+              ],
+              [
+                "2010-12",
+                288575
+              ]
+            ]
+          }
+        ]
       }
     },
     "lula-1-2": {
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 4.049172,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2003",
+                1.14
+              ],
+              [
+                "2004",
+                5.76
+              ],
+              [
+                "2005",
+                3.2
+              ],
+              [
+                "2006",
+                3.96
+              ],
+              [
+                "2007",
+                6.07
+              ],
+              [
+                "2008",
+                5.09
+              ],
+              [
+                "2009",
+                -0.13
+              ],
+              [
+                "2010",
+                7.53
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 37.375415,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2003",
+                1.14
+              ],
+              [
+                "2004",
+                5.76
+              ],
+              [
+                "2005",
+                3.2
+              ],
+              [
+                "2006",
+                3.96
+              ],
+              [
+                "2007",
+                6.07
+              ],
+              [
+                "2008",
+                5.09
+              ],
+              [
+                "2009",
+                -0.13
+              ],
+              [
+                "2010",
+                7.53
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série do deflator ainda não baixada.",
         "inputs": []
       },
       "salario_minimo_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 510,
+        "inputs": [
+          {
+            "series": "salarioMinimo",
+            "points": [
+              [
+                "2010-12",
+                510
+              ]
+            ]
+          }
+        ]
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 10.66,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2010-12",
+                10.66
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 14.776875,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2003-01",
+                25.06
+              ],
+              [
+                "2003-02",
+                25.68
+              ],
+              [
+                "2003-03",
+                26.32
+              ],
+              [
+                "2003-04",
+                26.32
+              ],
+              [
+                "2003-05",
+                26.31
+              ],
+              [
+                "2003-06",
+                26.09
+              ],
+              [
+                "2003-07",
+                25.36
+              ],
+              [
+                "2003-08",
+                23.5
+              ],
+              [
+                "2003-09",
+                21.02
+              ],
+              [
+                "2003-10",
+                19.54
+              ],
+              [
+                "2003-11",
+                18.31
+              ],
+              [
+                "2003-12",
+                16.91
+              ],
+              [
+                "2004-01",
+                16.32
+              ],
+              [
+                "2004-02",
+                16.3
+              ],
+              [
+                "2004-03",
+                16.19
+              ],
+              [
+                "2004-04",
+                15.96
+              ],
+              [
+                "2004-05",
+                15.77
+              ],
+              [
+                "2004-06",
+                15.8
+              ],
+              [
+                "2004-07",
+                15.77
+              ],
+              [
+                "2004-08",
+                15.86
+              ],
+              [
+                "2004-09",
+                16.09
+              ],
+              [
+                "2004-10",
+                16.41
+              ],
+              [
+                "2004-11",
+                16.96
+              ],
+              [
+                "2004-12",
+                17.5
+              ],
+              [
+                "2005-01",
+                17.93
+              ],
+              [
+                "2005-02",
+                18.47
+              ],
+              [
+                "2005-03",
+                18.97
+              ],
+              [
+                "2005-04",
+                19.32
+              ],
+              [
+                "2005-05",
+                19.61
+              ],
+              [
+                "2005-06",
+                19.75
+              ],
+              [
+                "2005-07",
+                19.72
+              ],
+              [
+                "2005-08",
+                19.75
+              ],
+              [
+                "2005-09",
+                19.61
+              ],
+              [
+                "2005-10",
+                19.25
+              ],
+              [
+                "2005-11",
+                18.87
+              ],
+              [
+                "2005-12",
+                18.24
+              ],
+              [
+                "2006-01",
+                17.65
+              ],
+              [
+                "2006-02",
+                17.28
+              ],
+              [
+                "2006-03",
+                16.74
+              ],
+              [
+                "2006-04",
+                16.19
+              ],
+              [
+                "2006-05",
+                15.7
+              ],
+              [
+                "2006-06",
+                15.18
+              ],
+              [
+                "2006-07",
+                14.98
+              ],
+              [
+                "2006-08",
+                14.66
+              ],
+              [
+                "2006-09",
+                14.17
+              ],
+              [
+                "2006-10",
+                13.95
+              ],
+              [
+                "2006-11",
+                13.65
+              ],
+              [
+                "2006-12",
+                13.19
+              ],
+              [
+                "2007-01",
+                13.13
+              ],
+              [
+                "2007-02",
+                12.93
+              ],
+              [
+                "2007-03",
+                12.74
+              ],
+              [
+                "2007-04",
+                12.58
+              ],
+              [
+                "2007-05",
+                12.43
+              ],
+              [
+                "2007-06",
+                12.03
+              ],
+              [
+                "2007-07",
+                11.73
+              ],
+              [
+                "2007-08",
+                11.43
+              ],
+              [
+                "2007-09",
+                11.22
+              ],
+              [
+                "2007-10",
+                11.18
+              ],
+              [
+                "2007-11",
+                11.18
+              ],
+              [
+                "2007-12",
+                11.18
+              ],
+              [
+                "2008-01",
+                11.18
+              ],
+              [
+                "2008-02",
+                11.18
+              ],
+              [
+                "2008-03",
+                11.18
+              ],
+              [
+                "2008-04",
+                11.37
+              ],
+              [
+                "2008-05",
+                11.63
+              ],
+              [
+                "2008-06",
+                12.09
+              ],
+              [
+                "2008-07",
+                12.36
+              ],
+              [
+                "2008-08",
+                12.92
+              ],
+              [
+                "2008-09",
+                13.39
+              ],
+              [
+                "2008-10",
+                13.66
+              ],
+              [
+                "2008-11",
+                13.64
+              ],
+              [
+                "2008-12",
+                13.66
+              ],
+              [
+                "2009-01",
+                13.32
+              ],
+              [
+                "2009-02",
+                12.66
+              ],
+              [
+                "2009-03",
+                11.7
+              ],
+              [
+                "2009-04",
+                11.11
+              ],
+              [
+                "2009-05",
+                10.16
+              ],
+              [
+                "2009-06",
+                9.54
+              ],
+              [
+                "2009-07",
+                9.01
+              ],
+              [
+                "2009-08",
+                8.65
+              ],
+              [
+                "2009-09",
+                8.65
+              ],
+              [
+                "2009-10",
+                8.65
+              ],
+              [
+                "2009-11",
+                8.65
+              ],
+              [
+                "2009-12",
+                8.65
+              ],
+              [
+                "2010-01",
+                8.65
+              ],
+              [
+                "2010-02",
+                8.65
+              ],
+              [
+                "2010-03",
+                8.65
+              ],
+              [
+                "2010-04",
+                8.72
+              ],
+              [
+                "2010-05",
+                9.4
+              ],
+              [
+                "2010-06",
+                9.94
+              ],
+              [
+                "2010-07",
+                10.32
+              ],
+              [
+                "2010-08",
+                10.66
+              ],
+              [
+                "2010-09",
+                10.66
+              ],
+              [
+                "2010-10",
+                10.66
+              ],
+              [
+                "2010-11",
+                10.66
+              ],
+              [
+                "2010-12",
+                10.66
+              ]
+            ]
+          }
+        ]
       },
       "dolar_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 1.6662,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2010-12",
+                1.6662
+              ]
+            ]
+          }
+        ]
       },
       "dolar_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -52.842951,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2002-12",
+                3.5333
+              ],
+              [
+                "2010-12",
+                1.6662
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 37.98,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2010-12",
+                37.98
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -21.95,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2002-12",
+                59.93
+              ],
+              [
+                "2010-12",
+                37.98
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 51.77,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2010-12",
+                51.77
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série disponível a partir de dez/2006; sem valor herdado em dez/2002.",
         "inputs": []
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 288.575,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2010-12",
+                288575
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 250.752,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2002-12",
+                37823
+              ],
+              [
+                "2010-12",
+                288575
+              ]
+            ]
+          }
+        ]
       }
     },
     "dilma-1": {
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 2.339358,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2011",
+                3.97
+              ],
+              [
+                "2012",
+                1.92
+              ],
+              [
+                "2013",
+                3
+              ],
+              [
+                "2014",
+                0.5
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 9.690937,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2011",
+                3.97
+              ],
+              [
+                "2012",
+                1.92
+              ],
+              [
+                "2013",
+                3
+              ],
+              [
+                "2014",
+                0.5
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série do deflator ainda não baixada.",
         "inputs": []
       },
       "salario_minimo_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 724,
+        "inputs": [
+          {
+            "series": "salarioMinimo",
+            "points": [
+              [
+                "2014-12",
+                724
+              ]
+            ]
+          }
+        ]
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 11.58,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2014-12",
+                11.58
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 9.8075,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2011-01",
+                10.85
+              ],
+              [
+                "2011-02",
+                11.17
+              ],
+              [
+                "2011-03",
+                11.62
+              ],
+              [
+                "2011-04",
+                11.74
+              ],
+              [
+                "2011-05",
+                11.92
+              ],
+              [
+                "2011-06",
+                12.1
+              ],
+              [
+                "2011-07",
+                12.25
+              ],
+              [
+                "2011-08",
+                12.42
+              ],
+              [
+                "2011-09",
+                11.91
+              ],
+              [
+                "2011-10",
+                11.7
+              ],
+              [
+                "2011-11",
+                11.4
+              ],
+              [
+                "2011-12",
+                10.9
+              ],
+              [
+                "2012-01",
+                10.7
+              ],
+              [
+                "2012-02",
+                10.4
+              ],
+              [
+                "2012-03",
+                9.82
+              ],
+              [
+                "2012-04",
+                9.35
+              ],
+              [
+                "2012-05",
+                8.87
+              ],
+              [
+                "2012-06",
+                8.39
+              ],
+              [
+                "2012-07",
+                8.07
+              ],
+              [
+                "2012-08",
+                7.85
+              ],
+              [
+                "2012-09",
+                7.39
+              ],
+              [
+                "2012-10",
+                7.23
+              ],
+              [
+                "2012-11",
+                7.14
+              ],
+              [
+                "2012-12",
+                7.16
+              ],
+              [
+                "2013-01",
+                7.11
+              ],
+              [
+                "2013-02",
+                7.12
+              ],
+              [
+                "2013-03",
+                7.15
+              ],
+              [
+                "2013-04",
+                7.26
+              ],
+              [
+                "2013-05",
+                7.42
+              ],
+              [
+                "2013-06",
+                7.9
+              ],
+              [
+                "2013-07",
+                8.23
+              ],
+              [
+                "2013-08",
+                8.45
+              ],
+              [
+                "2013-09",
+                8.9
+              ],
+              [
+                "2013-10",
+                9.25
+              ],
+              [
+                "2013-11",
+                9.45
+              ],
+              [
+                "2013-12",
+                9.9
+              ],
+              [
+                "2014-01",
+                10.17
+              ],
+              [
+                "2014-02",
+                10.43
+              ],
+              [
+                "2014-03",
+                10.65
+              ],
+              [
+                "2014-04",
+                10.87
+              ],
+              [
+                "2014-05",
+                10.9
+              ],
+              [
+                "2014-06",
+                10.9
+              ],
+              [
+                "2014-07",
+                10.9
+              ],
+              [
+                "2014-08",
+                10.9
+              ],
+              [
+                "2014-09",
+                10.9
+              ],
+              [
+                "2014-10",
+                10.92
+              ],
+              [
+                "2014-11",
+                11.15
+              ],
+              [
+                "2014-12",
+                11.58
+              ]
+            ]
+          }
+        ]
       },
       "dolar_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 2.6562,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2014-12",
+                2.6562
+              ]
+            ]
+          }
+        ]
       },
       "dolar_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 59.416637,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2010-12",
+                1.6662
+              ],
+              [
+                "2014-12",
+                2.6562
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 32.59,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2014-12",
+                32.59
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -5.39,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2010-12",
+                37.98
+              ],
+              [
+                "2014-12",
+                32.59
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 56.28,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2014-12",
+                56.28
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 4.51,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2010-12",
+                51.77
+              ],
+              [
+                "2014-12",
+                56.28
+              ]
+            ]
+          }
+        ]
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 363.551,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2014-12",
+                363551
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 74.976,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2010-12",
+                288575
+              ],
+              [
+                "2014-12",
+                363551
+              ]
+            ]
+          }
+        ]
       }
     },
     "dilma-2": {
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -3.55,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2015",
+                -3.55
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -3.55,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2015",
+                -3.55
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série do deflator ainda não baixada.",
         "inputs": []
       },
       "salario_minimo_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 880,
+        "inputs": [
+          {
+            "series": "salarioMinimo",
+            "points": [
+              [
+                "2016-05",
+                880
+              ]
+            ]
+          }
+        ]
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 14.15,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2016-05",
+                14.15
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 13.597059,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2015-01",
+                11.82
+              ],
+              [
+                "2015-02",
+                12.15
+              ],
+              [
+                "2015-03",
+                12.58
+              ],
+              [
+                "2015-04",
+                12.68
+              ],
+              [
+                "2015-05",
+                13.15
+              ],
+              [
+                "2015-06",
+                13.58
+              ],
+              [
+                "2015-07",
+                13.69
+              ],
+              [
+                "2015-08",
+                14.15
+              ],
+              [
+                "2015-09",
+                14.15
+              ],
+              [
+                "2015-10",
+                14.15
+              ],
+              [
+                "2015-11",
+                14.15
+              ],
+              [
+                "2015-12",
+                14.15
+              ],
+              [
+                "2016-01",
+                14.15
+              ],
+              [
+                "2016-02",
+                14.15
+              ],
+              [
+                "2016-03",
+                14.15
+              ],
+              [
+                "2016-04",
+                14.15
+              ],
+              [
+                "2016-05",
+                14.15
+              ]
+            ]
+          }
+        ]
       },
       "dolar_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 3.5951,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2016-05",
+                3.5951
+              ]
+            ]
+          }
+        ]
       },
       "dolar_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 35.347489,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2014-12",
+                2.6562
+              ],
+              [
+                "2016-05",
+                3.5951
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 39.08,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2016-05",
+                39.08
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 6.49,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2014-12",
+                32.59
+              ],
+              [
+                "2016-05",
+                39.08
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 67.58,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2016-05",
+                67.58
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 11.3,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2014-12",
+                56.28
+              ],
+              [
+                "2016-05",
+                67.58
+              ]
+            ]
+          }
+        ]
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 363.447,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2016-05",
+                363447
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -0.104,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2014-12",
+                363551
+              ],
+              [
+                "2016-05",
+                363447
+              ]
+            ]
+          }
+        ]
       }
     },
     "dilma-1-2": {
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 1.133397,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2011",
+                3.97
+              ],
+              [
+                "2012",
+                1.92
+              ],
+              [
+                "2013",
+                3
+              ],
+              [
+                "2014",
+                0.5
+              ],
+              [
+                "2015",
+                -3.55
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 5.796909,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2011",
+                3.97
+              ],
+              [
+                "2012",
+                1.92
+              ],
+              [
+                "2013",
+                3
+              ],
+              [
+                "2014",
+                0.5
+              ],
+              [
+                "2015",
+                -3.55
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série do deflator ainda não baixada.",
         "inputs": []
       },
       "salario_minimo_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 880,
+        "inputs": [
+          {
+            "series": "salarioMinimo",
+            "points": [
+              [
+                "2016-05",
+                880
+              ]
+            ]
+          }
+        ]
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 14.15,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2016-05",
+                14.15
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 10.798615,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2011-01",
+                10.85
+              ],
+              [
+                "2011-02",
+                11.17
+              ],
+              [
+                "2011-03",
+                11.62
+              ],
+              [
+                "2011-04",
+                11.74
+              ],
+              [
+                "2011-05",
+                11.92
+              ],
+              [
+                "2011-06",
+                12.1
+              ],
+              [
+                "2011-07",
+                12.25
+              ],
+              [
+                "2011-08",
+                12.42
+              ],
+              [
+                "2011-09",
+                11.91
+              ],
+              [
+                "2011-10",
+                11.7
+              ],
+              [
+                "2011-11",
+                11.4
+              ],
+              [
+                "2011-12",
+                10.9
+              ],
+              [
+                "2012-01",
+                10.7
+              ],
+              [
+                "2012-02",
+                10.4
+              ],
+              [
+                "2012-03",
+                9.82
+              ],
+              [
+                "2012-04",
+                9.35
+              ],
+              [
+                "2012-05",
+                8.87
+              ],
+              [
+                "2012-06",
+                8.39
+              ],
+              [
+                "2012-07",
+                8.07
+              ],
+              [
+                "2012-08",
+                7.85
+              ],
+              [
+                "2012-09",
+                7.39
+              ],
+              [
+                "2012-10",
+                7.23
+              ],
+              [
+                "2012-11",
+                7.14
+              ],
+              [
+                "2012-12",
+                7.16
+              ],
+              [
+                "2013-01",
+                7.11
+              ],
+              [
+                "2013-02",
+                7.12
+              ],
+              [
+                "2013-03",
+                7.15
+              ],
+              [
+                "2013-04",
+                7.26
+              ],
+              [
+                "2013-05",
+                7.42
+              ],
+              [
+                "2013-06",
+                7.9
+              ],
+              [
+                "2013-07",
+                8.23
+              ],
+              [
+                "2013-08",
+                8.45
+              ],
+              [
+                "2013-09",
+                8.9
+              ],
+              [
+                "2013-10",
+                9.25
+              ],
+              [
+                "2013-11",
+                9.45
+              ],
+              [
+                "2013-12",
+                9.9
+              ],
+              [
+                "2014-01",
+                10.17
+              ],
+              [
+                "2014-02",
+                10.43
+              ],
+              [
+                "2014-03",
+                10.65
+              ],
+              [
+                "2014-04",
+                10.87
+              ],
+              [
+                "2014-05",
+                10.9
+              ],
+              [
+                "2014-06",
+                10.9
+              ],
+              [
+                "2014-07",
+                10.9
+              ],
+              [
+                "2014-08",
+                10.9
+              ],
+              [
+                "2014-09",
+                10.9
+              ],
+              [
+                "2014-10",
+                10.92
+              ],
+              [
+                "2014-11",
+                11.15
+              ],
+              [
+                "2014-12",
+                11.58
+              ],
+              [
+                "2015-01",
+                11.82
+              ],
+              [
+                "2015-02",
+                12.15
+              ],
+              [
+                "2015-03",
+                12.58
+              ],
+              [
+                "2015-04",
+                12.68
+              ],
+              [
+                "2015-05",
+                13.15
+              ],
+              [
+                "2015-06",
+                13.58
+              ],
+              [
+                "2015-07",
+                13.69
+              ],
+              [
+                "2015-08",
+                14.15
+              ],
+              [
+                "2015-09",
+                14.15
+              ],
+              [
+                "2015-10",
+                14.15
+              ],
+              [
+                "2015-11",
+                14.15
+              ],
+              [
+                "2015-12",
+                14.15
+              ],
+              [
+                "2016-01",
+                14.15
+              ],
+              [
+                "2016-02",
+                14.15
+              ],
+              [
+                "2016-03",
+                14.15
+              ],
+              [
+                "2016-04",
+                14.15
+              ],
+              [
+                "2016-05",
+                14.15
+              ]
+            ]
+          }
+        ]
       },
       "dolar_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 3.5951,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2016-05",
+                3.5951
+              ]
+            ]
+          }
+        ]
       },
       "dolar_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 115.766415,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2010-12",
+                1.6662
+              ],
+              [
+                "2016-05",
+                3.5951
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 39.08,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2016-05",
+                39.08
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 1.1,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2010-12",
+                37.98
+              ],
+              [
+                "2016-05",
+                39.08
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 67.58,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2016-05",
+                67.58
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 15.81,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2010-12",
+                51.77
+              ],
+              [
+                "2016-05",
+                67.58
+              ]
+            ]
+          }
+        ]
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 363.447,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2016-05",
+                363447
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 74.872,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2010-12",
+                288575
+              ],
+              [
+                "2016-05",
+                363447
+              ]
+            ]
+          }
+        ]
       }
     },
     "temer": {
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -0.086393,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2016",
+                -3.28
+              ],
+              [
+                "2017",
+                1.32
+              ],
+              [
+                "2018",
+                1.78
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -0.258955,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2016",
+                -3.28
+              ],
+              [
+                "2017",
+                1.32
+              ],
+              [
+                "2018",
+                1.78
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série do deflator ainda não baixada.",
         "inputs": []
       },
       "salario_minimo_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 954,
+        "inputs": [
+          {
+            "series": "salarioMinimo",
+            "points": [
+              [
+                "2018-12",
+                954
+              ]
+            ]
+          }
+        ]
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 6.4,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2018-12",
+                6.4
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 9.579032,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2016-06",
+                14.15
+              ],
+              [
+                "2016-07",
+                14.15
+              ],
+              [
+                "2016-08",
+                14.15
+              ],
+              [
+                "2016-09",
+                14.15
+              ],
+              [
+                "2016-10",
+                14.05
+              ],
+              [
+                "2016-11",
+                13.9
+              ],
+              [
+                "2016-12",
+                13.65
+              ],
+              [
+                "2017-01",
+                13.17
+              ],
+              [
+                "2017-02",
+                12.82
+              ],
+              [
+                "2017-03",
+                12.15
+              ],
+              [
+                "2017-04",
+                11.59
+              ],
+              [
+                "2017-05",
+                11.15
+              ],
+              [
+                "2017-06",
+                10.15
+              ],
+              [
+                "2017-07",
+                10.01
+              ],
+              [
+                "2017-08",
+                9.15
+              ],
+              [
+                "2017-09",
+                8.35
+              ],
+              [
+                "2017-10",
+                8.01
+              ],
+              [
+                "2017-11",
+                7.4
+              ],
+              [
+                "2017-12",
+                7
+              ],
+              [
+                "2018-01",
+                6.9
+              ],
+              [
+                "2018-02",
+                6.72
+              ],
+              [
+                "2018-03",
+                6.58
+              ],
+              [
+                "2018-04",
+                6.4
+              ],
+              [
+                "2018-05",
+                6.4
+              ],
+              [
+                "2018-06",
+                6.4
+              ],
+              [
+                "2018-07",
+                6.4
+              ],
+              [
+                "2018-08",
+                6.4
+              ],
+              [
+                "2018-09",
+                6.4
+              ],
+              [
+                "2018-10",
+                6.4
+              ],
+              [
+                "2018-11",
+                6.4
+              ],
+              [
+                "2018-12",
+                6.4
+              ]
+            ]
+          }
+        ]
       },
       "dolar_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 3.8748,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2018-12",
+                3.8748
+              ]
+            ]
+          }
+        ]
       },
       "dolar_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 7.780034,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2016-05",
+                3.5951
+              ],
+              [
+                "2018-12",
+                3.8748
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 52.77,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2018-12",
+                52.77
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 13.69,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2016-05",
+                39.08
+              ],
+              [
+                "2018-12",
+                52.77
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 75.27,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2018-12",
+                75.27
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 7.69,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2016-05",
+                67.58
+              ],
+              [
+                "2018-12",
+                75.27
+              ]
+            ]
+          }
+        ]
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 374.715,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2018-12",
+                374715
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 11.268,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2016-05",
+                363447
+              ],
+              [
+                "2018-12",
+                374715
+              ]
+            ]
+          }
+        ]
       }
     },
     "bolsonaro": {
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 1.385282,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2019",
+                1.22
+              ],
+              [
+                "2020",
+                -3.28
+              ],
+              [
+                "2021",
+                4.76
+              ],
+              [
+                "2022",
+                3.02
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 5.657336,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2019",
+                1.22
+              ],
+              [
+                "2020",
+                -3.28
+              ],
+              [
+                "2021",
+                4.76
+              ],
+              [
+                "2022",
+                3.02
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série do deflator ainda não baixada.",
         "inputs": []
       },
       "salario_minimo_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 1212,
+        "inputs": [
+          {
+            "series": "salarioMinimo",
+            "points": [
+              [
+                "2022-12",
+                1212
+              ]
+            ]
+          }
+        ]
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 13.65,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2022-12",
+                13.65
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 6.394792,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2019-01",
+                6.4
+              ],
+              [
+                "2019-02",
+                6.4
+              ],
+              [
+                "2019-03",
+                6.4
+              ],
+              [
+                "2019-04",
+                6.4
+              ],
+              [
+                "2019-05",
+                6.4
+              ],
+              [
+                "2019-06",
+                6.4
+              ],
+              [
+                "2019-07",
+                6.4
+              ],
+              [
+                "2019-08",
+                5.9
+              ],
+              [
+                "2019-09",
+                5.71
+              ],
+              [
+                "2019-10",
+                5.38
+              ],
+              [
+                "2019-11",
+                4.9
+              ],
+              [
+                "2019-12",
+                4.59
+              ],
+              [
+                "2020-01",
+                4.4
+              ],
+              [
+                "2020-02",
+                4.19
+              ],
+              [
+                "2020-03",
+                3.95
+              ],
+              [
+                "2020-04",
+                3.65
+              ],
+              [
+                "2020-05",
+                3.01
+              ],
+              [
+                "2020-06",
+                2.58
+              ],
+              [
+                "2020-07",
+                2.15
+              ],
+              [
+                "2020-08",
+                1.94
+              ],
+              [
+                "2020-09",
+                1.9
+              ],
+              [
+                "2020-10",
+                1.9
+              ],
+              [
+                "2020-11",
+                1.9
+              ],
+              [
+                "2020-12",
+                1.9
+              ],
+              [
+                "2021-01",
+                1.9
+              ],
+              [
+                "2021-02",
+                1.9
+              ],
+              [
+                "2021-03",
+                2.23
+              ],
+              [
+                "2021-04",
+                2.65
+              ],
+              [
+                "2021-05",
+                3.29
+              ],
+              [
+                "2021-06",
+                3.76
+              ],
+              [
+                "2021-07",
+                4.15
+              ],
+              [
+                "2021-08",
+                5.01
+              ],
+              [
+                "2021-09",
+                5.43
+              ],
+              [
+                "2021-10",
+                6.3
+              ],
+              [
+                "2021-11",
+                7.65
+              ],
+              [
+                "2021-12",
+                8.76
+              ],
+              [
+                "2022-01",
+                9.15
+              ],
+              [
+                "2022-02",
+                10.49
+              ],
+              [
+                "2022-03",
+                11.15
+              ],
+              [
+                "2022-04",
+                11.65
+              ],
+              [
+                "2022-05",
+                12.51
+              ],
+              [
+                "2022-06",
+                12.89
+              ],
+              [
+                "2022-07",
+                13.15
+              ],
+              [
+                "2022-08",
+                13.58
+              ],
+              [
+                "2022-09",
+                13.65
+              ],
+              [
+                "2022-10",
+                13.65
+              ],
+              [
+                "2022-11",
+                13.65
+              ],
+              [
+                "2022-12",
+                13.65
+              ]
+            ]
+          }
+        ]
       },
       "dolar_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 5.2177,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2022-12",
+                5.2177
+              ]
+            ]
+          }
+        ]
       },
       "dolar_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 34.657273,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2018-12",
+                3.8748
+              ],
+              [
+                "2022-12",
+                5.2177
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 56.13,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2022-12",
+                56.13
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 3.36,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2018-12",
+                52.77
+              ],
+              [
+                "2022-12",
+                56.13
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 71.68,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2022-12",
+                71.68
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -3.59,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2018-12",
+                75.27
+              ],
+              [
+                "2022-12",
+                71.68
+              ]
+            ]
+          }
+        ]
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": 324.703,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2022-12",
+                324703
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "ok",
+        "value": -50.012,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2018-12",
+                374715
+              ],
+              [
+                "2022-12",
+                324703
+              ]
+            ]
+          }
+        ]
       }
     },
     "lula-3": {
       "ipca_acumulado": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "ipca_anual": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "pib_medio": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "partial",
+        "note": "Considera 2023, 2024, 2025; 2026 ainda sem dado anual publicado.",
+        "value": 2.982138,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2023",
+                3.24
+              ],
+              [
+                "2024",
+                3.42
+              ],
+              [
+                "2025",
+                2.29
+              ]
+            ]
+          }
+        ]
       },
       "pib_acumulado": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "partial",
+        "note": "Considera 2023, 2024, 2025; 2026 ainda sem dado anual publicado.",
+        "value": 9.21586,
+        "inputs": [
+          {
+            "series": "pib",
+            "points": [
+              [
+                "2023",
+                3.24
+              ],
+              [
+                "2024",
+                3.42
+              ],
+              [
+                "2025",
+                2.29
+              ]
+            ]
+          }
+        ]
       },
       "desocupacao_fim": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "desocupacao_var": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série ainda não baixada das fontes oficiais.",
         "inputs": []
       },
       "salario_minimo_real": {
         "status": "unavailable",
         "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
+        "note": "Série do deflator ainda não baixada.",
         "inputs": []
       },
       "salario_minimo_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "partial",
+        "note": "Mandato em curso: dados até out/2026.",
+        "value": 1621,
+        "inputs": [
+          {
+            "series": "salarioMinimo",
+            "points": [
+              [
+                "2026-10",
+                1621
+              ]
+            ]
+          }
+        ]
       },
       "selic_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "partial",
+        "note": "Mandato em curso: dados até out/2026.",
+        "value": 13.65,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2026-10",
+                13.65
+              ]
+            ]
+          }
+        ]
       },
       "selic_media": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "partial",
+        "note": "Mandato em curso: dados até out/2026.",
+        "value": 13.124348,
+        "inputs": [
+          {
+            "series": "selic",
+            "points": [
+              [
+                "2023-01",
+                13.65
+              ],
+              [
+                "2023-02",
+                13.65
+              ],
+              [
+                "2023-03",
+                13.65
+              ],
+              [
+                "2023-04",
+                13.65
+              ],
+              [
+                "2023-05",
+                13.65
+              ],
+              [
+                "2023-06",
+                13.65
+              ],
+              [
+                "2023-07",
+                13.65
+              ],
+              [
+                "2023-08",
+                13.19
+              ],
+              [
+                "2023-09",
+                12.97
+              ],
+              [
+                "2023-10",
+                12.65
+              ],
+              [
+                "2023-11",
+                12.17
+              ],
+              [
+                "2023-12",
+                11.87
+              ],
+              [
+                "2024-01",
+                11.65
+              ],
+              [
+                "2024-02",
+                11.15
+              ],
+              [
+                "2024-03",
+                11
+              ],
+              [
+                "2024-04",
+                10.65
+              ],
+              [
+                "2024-05",
+                10.46
+              ],
+              [
+                "2024-06",
+                10.4
+              ],
+              [
+                "2024-07",
+                10.4
+              ],
+              [
+                "2024-08",
+                10.4
+              ],
+              [
+                "2024-09",
+                10.5
+              ],
+              [
+                "2024-10",
+                10.65
+              ],
+              [
+                "2024-11",
+                11.04
+              ],
+              [
+                "2024-12",
+                11.77
+              ],
+              [
+                "2025-01",
+                12.24
+              ],
+              [
+                "2025-02",
+                13.15
+              ],
+              [
+                "2025-03",
+                13.57
+              ],
+              [
+                "2025-04",
+                14.15
+              ],
+              [
+                "2025-05",
+                14.55
+              ],
+              [
+                "2025-06",
+                14.74
+              ],
+              [
+                "2025-07",
+                14.9
+              ],
+              [
+                "2025-08",
+                14.9
+              ],
+              [
+                "2025-09",
+                14.9
+              ],
+              [
+                "2025-10",
+                14.9
+              ],
+              [
+                "2025-11",
+                14.9
+              ],
+              [
+                "2025-12",
+                14.9
+              ],
+              [
+                "2026-01",
+                14.9
+              ],
+              [
+                "2026-02",
+                14.9
+              ],
+              [
+                "2026-03",
+                14.8
+              ],
+              [
+                "2026-04",
+                14.64
+              ],
+              [
+                "2026-05",
+                14.4
+              ],
+              [
+                "2026-06",
+                14.29
+              ],
+              [
+                "2026-07",
+                14.15
+              ],
+              [
+                "2026-08",
+                13.94
+              ],
+              [
+                "2026-09",
+                13.78
+              ],
+              [
+                "2026-10",
+                13.65
+              ]
+            ]
+          }
+        ]
       },
       "dolar_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "partial",
+        "note": "Mandato em curso: dados até set/2026.",
+        "value": 5.1809,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2026-09",
+                5.1809
+              ]
+            ]
+          }
+        ]
       },
       "dolar_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "partial",
+        "note": "Mandato em curso: dados até set/2026.",
+        "value": -0.705292,
+        "inputs": [
+          {
+            "series": "dolar",
+            "points": [
+              [
+                "2022-12",
+                5.2177
+              ],
+              [
+                "2026-09",
+                5.1809
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "partial",
+        "note": "Mandato em curso: dados até ago/2026.",
+        "value": 69.26,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2026-08",
+                69.26
+              ]
+            ]
+          }
+        ]
       },
       "dlsp_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "partial",
+        "note": "Mandato em curso: dados até ago/2026.",
+        "value": 13.13,
+        "inputs": [
+          {
+            "series": "dlsp",
+            "points": [
+              [
+                "2022-12",
+                56.13
+              ],
+              [
+                "2026-08",
+                69.26
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "partial",
+        "note": "Mandato em curso: dados até ago/2026.",
+        "value": 82.86,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2026-08",
+                82.86
+              ]
+            ]
+          }
+        ]
       },
       "dbgg_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "partial",
+        "note": "Mandato em curso: dados até ago/2026.",
+        "value": 11.18,
+        "inputs": [
+          {
+            "series": "dbgg",
+            "points": [
+              [
+                "2022-12",
+                71.68
+              ],
+              [
+                "2026-08",
+                82.86
+              ]
+            ]
+          }
+        ]
       },
       "reservas_fim": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "partial",
+        "note": "Mandato em curso: dados até set/2026.",
+        "value": 362.821,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2026-09",
+                362821
+              ]
+            ]
+          }
+        ]
       },
       "reservas_var": {
-        "status": "unavailable",
-        "value": null,
-        "note": "Dados ainda não baixados das fontes oficiais.",
-        "inputs": []
+        "status": "partial",
+        "note": "Mandato em curso: dados até set/2026.",
+        "value": 38.118,
+        "inputs": [
+          {
+            "series": "reservas",
+            "points": [
+              [
+                "2022-12",
+                324703
+              ],
+              [
+                "2026-09",
+                362821
+              ]
+            ]
+          }
+        ]
       }
     }
   }

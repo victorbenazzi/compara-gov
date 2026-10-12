@@ -1,4 +1,93 @@
 {
-  "$comment": "Gerado por `pnpm data:photos`. Ainda vazio: rode o pipeline para baixar as fotos da Wikipédia.",
-  "photos": {}
+  "$comment": "Gerado por `pnpm data:photos`. Fotos da imagem principal de cada artigo da Wikipédia em português, hospedadas no Wikimedia Commons, com autoria e licença.",
+  "photos": {
+    "bolsonaro": {
+      "src": "/photos/bolsonaro.jpg",
+      "file": "Jair_Bolsonaro_2019_Portrait_(3x4_cropped_center).jpg",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Jair_Bolsonaro_2019_Portrait_(3x4_cropped_center).jpg",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Jair_Bolsonaro_2019_Portrait_%283x4_cropped_center%29.jpg/500px-Jair_Bolsonaro_2019_Portrait_%283x4_cropped_center%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "artist": "Isac Nóbrega/PR",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sha256": "a3de9a9935f1e5b0255509ccfd376a6f6d2c30b358e9f35ae939bb551f6c9ce0",
+      "fetchedAt": "2026-10-12T21:43:36.599Z"
+    },
+    "collor": {
+      "src": "/photos/collor.jpg",
+      "file": "Foto_oficial_do_presidente_Fernando_Collor_de_Melo._(38405801411).jpg",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Foto_oficial_do_presidente_Fernando_Collor_de_Melo._(38405801411).jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Foto_oficial_do_presidente_Fernando_Collor_de_Melo._%2838405801411%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "artist": "Ubirajara Dettimar/Presidência da República",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "sha256": "e16204e8d93092b91f4cb89273e4e7b39194f6d9180a85a0127a8cfdf4ca4000",
+      "fetchedAt": "2026-10-12T21:43:35.873Z"
+    },
+    "dilma": {
+      "src": "/photos/dilma.jpg",
+      "file": "Dilma_Rousseff_-_foto_oficial_2011-01-09.jpg",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Dilma_Rousseff_-_foto_oficial_2011-01-09.jpg",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Dilma_Rousseff_-_foto_oficial_2011-01-09.jpg/500px-Dilma_Rousseff_-_foto_oficial_2011-01-09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "artist": "Roberto Stuckert Filho/Presidência da República",
+      "license": "Attribution",
+      "licenseUrl": null,
+      "sha256": "0228ca588fd4a848edc8c56e2ab719cbc10ee3944b451c406dcec69e95280205",
+      "fetchedAt": "2026-10-12T21:43:36.367Z"
+    },
+    "fhc": {
+      "src": "/photos/fhc.jpg",
+      "file": "Fernando_Henrique_Cardoso_(1999).jpg",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Fernando_Henrique_Cardoso_(1999).jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Fernando_Henrique_Cardoso_%281999%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "artist": "Agência Brasil",
+      "license": "CC BY 3.0 br",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+      "sha256": "9bee6b8e578527f27cbd46d1c8e72123279a6bdab96356cb62b633fcab2dbfd7",
+      "fetchedAt": "2026-10-12T21:43:36.125Z"
+    },
+    "itamar": {
+      "src": "/photos/itamar.jpg",
+      "file": "Itamar_Franco_Faixa_Presidencial_(cropped).jpg",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Itamar_Franco_Faixa_Presidencial_(cropped).jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Itamar_Franco_Faixa_Presidencial_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "artist": "Getúlio Gurgel",
+      "license": "Public domain",
+      "licenseUrl": null,
+      "sha256": "d9a2e0a4834857732d29a40ae6fc17e059fd5f20bb9be7f73ecfd688e016e25e",
+      "fetchedAt": "2026-10-12T21:43:35.972Z"
+    },
+    "lula": {
+      "src": "/photos/lula.jpg",
+      "file": "Foto_oficial_de_Luiz_Inácio_Lula_da_Silva_(ombros)_denoise.jpg",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_(ombros)_denoise.jpg",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28ombros%29_denoise.jpg/500px-Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28ombros%29_denoise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "artist": "Ricardo Stuckert/PR",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sha256": "56da08fb09f249105eb0cc526964f654544dfd4ad639941cd7d5a8ea3256b0c9",
+      "fetchedAt": "2026-10-12T21:43:36.243Z"
+    },
+    "sarney": {
+      "src": "/photos/sarney.jpg",
+      "file": "Foto_Oficial_Sarney_EBC.jpg",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Foto_Oficial_Sarney_EBC.jpg",
+      "sourceUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Foto_Oficial_Sarney_EBC.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "artist": "Unknown authorUnknown author",
+      "license": "CC BY 3.0 br",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/br/deed.en",
+      "sha256": "e5ee135d5bb2a3e693d9dd236187eb1f7130549ca2ec570b5533bb87962cf3e1",
+      "fetchedAt": "2026-10-12T21:43:35.766Z"
+    },
+    "temer": {
+      "src": "/photos/temer.jpg",
+      "file": "Michel_Temer_(foto_oficial)_(cropped_2).jpg",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:Michel_Temer_(foto_oficial)_(cropped_2).jpg",
+      "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Michel_Temer_%28foto_oficial%29_%28cropped_2%29.jpg/500px-Michel_Temer_%28foto_oficial%29_%28cropped_2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "artist": "Beto Barata/PR",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sha256": "8822706c4bfcb9d96a8336e55ed482ccf4d41dd804047b10731a4bf0a9df4153",
+      "fetchedAt": "2026-10-12T21:43:36.484Z"
+    }
+  }
 }
