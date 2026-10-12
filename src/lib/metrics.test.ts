@@ -128,6 +128,17 @@ describe("fórmulas", () => {
     expect(r.value).toBeCloseTo((300 / 200 / 1.01 ** 48 - 1) * 100, 6);
   });
 
+  it("ganho real em mandato em curso para no último mês com IPCA publicado", () => {
+    const store = {
+      ipca: monthly("1980-01", "2026-08", () => 1),
+      salarioMinimo: monthly("1994-07", "2026-09", (m) => (m < "2023-01" ? 100 : 200)),
+    };
+    const r = computeIndicator(indicator("salario_minimo_real"), term("lula-3"), ctx(store));
+    expect(r.status).toBe("partial");
+    expect(r.inputs[0].points.at(-1)?.[0]).toBe("2026-08");
+    expect(r.inputs[1].points.at(-1)?.[0]).toBe("2026-08");
+  });
+
   it("PIB usa os anos atribuídos, inclusive em mandatos combinados", () => {
     const points: Record<string, number> = {};
     for (let y = 1980; y <= 2025; y++) points[String(y)] = y === 2016 ? -3 : 2;

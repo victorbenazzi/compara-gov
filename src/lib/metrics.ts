@@ -66,8 +66,11 @@ function computeMonthly(m: Exclude<Method, { kind: "annualMean" | "annualCompoun
   const months = attributedMonths(term.start, term.end, ctx.asOf);
   if (months.length === 0) return unavailable("Mandato sem nenhum mês completo.");
 
-  const used = months.filter((x) => x <= data.last);
-  if (used.length === 0) return unavailable(`Série publicada só até ${formatMonth(data.last)}.`);
+  // Com deflator, o período usado termina no último mês em que as duas séries têm dado.
+  const deflLast = m.kind === "realChange" ? ctx.store[m.deflator]?.last : undefined;
+  const lastAvailable = deflLast && deflLast < data.last ? deflLast : data.last;
+  const used = months.filter((x) => x <= lastAvailable);
+  if (used.length === 0) return unavailable(`Série publicada só até ${formatMonth(lastAvailable)}.`);
   const lastUsed = used[used.length - 1];
   const complete = used.length === months.length;
   const scale = "scale" in m && m.scale ? m.scale : 1;
