@@ -1,0 +1,67 @@
+name: Atualizar dados
+
+# Baixa as séries das APIs oficiais (Banco Central e IBGE) e as fotos da Wikipédia,
+# recalcula os indicadores e faz commit do resultado. O log público desta action é
+# parte da trilha de auditoria: mostra cada URL consultada.
+on:
+  schedule:
+    - cron: "17 9 * * 1" # segundas, 06:17 em Brasília
+  workflow_dispatch:
+  push:
+    paths:
+      - "src/lib/series.ts"
+      - "src/lib/indicators.ts"
+      - "src/lib/metrics.ts"
+      - "src/lib/period.ts"
+      - "src/lib/parse.ts"
+      - "data/presidents.json"
+      - "scripts/**"
+      - ".github/workflows/update-data.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+
+      - name: Baixar séries oficiais
+        run: pnpm data:fetch || echo "::warning::Alguma série falhou no download; as demais foram atualizadas."
+      - name: Baixar fotos da Wikipédia
+        run: pnpm data:photos || echo "::warning::Alguma foto não pôde ser baixada."
+      - name: Recalcular indicadores
+        run: pnpm data:build
+      - run: pnpm test
+
+      - name: Resumo
+        run: |
+          node -e '
+            const d = require("./data/indicators.json");
+            const rows = Object.entries(d.sources).map(([id, s]) =>
+              `| ${id} | ${s.status} | ${s.first ?? ""} | ${s.last ?? ""} | ${s.problem ?? ""} |`);
+            console.log(["### Séries", "", "| série | status | início | fim | problema |", "|---|---|---|---|---|", ...rows].join("\n"));
+          ' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data public/photos
+          if git diff --cached --quiet; then
+            echo "Sem mudanças nos dados."
+          else
+            git commit -m "dados: atualização a partir das fontes oficiais ($(date -u +%Y-%m-%d))"
+            git push
+          fi

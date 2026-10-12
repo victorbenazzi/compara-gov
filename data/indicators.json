@@ -1,0 +1,1741 @@
+{
+  "$comment": "Gerado por `pnpm data:build` a partir de data/raw. Não edite à mão: rode o pipeline e confira com `pnpm data:verify`.",
+  "schemaVersion": 1,
+  "generatedAt": null,
+  "asOf": null,
+  "sources": {
+    "ipca": {
+      "status": "missing",
+      "fetchedAt": null,
+      "first": null,
+      "last": null,
+      "count": 0,
+      "files": [],
+      "anchors": []
+    },
+    "pib": {
+      "status": "missing",
+      "fetchedAt": null,
+      "first": null,
+      "last": null,
+      "count": 0,
+      "files": [],
+      "anchors": []
+    },
+    "selic": {
+      "status": "missing",
+      "fetchedAt": null,
+      "first": null,
+      "last": null,
+      "count": 0,
+      "files": [],
+      "anchors": []
+    },
+    "dolar": {
+      "status": "missing",
+      "fetchedAt": null,
+      "first": null,
+      "last": null,
+      "count": 0,
+      "files": [],
+      "anchors": []
+    },
+    "salarioMinimo": {
+      "status": "missing",
+      "fetchedAt": null,
+      "first": null,
+      "last": null,
+      "count": 0,
+      "files": [],
+      "anchors": []
+    },
+    "desocupacao": {
+      "status": "missing",
+      "fetchedAt": null,
+      "first": null,
+      "last": null,
+      "count": 0,
+      "files": [],
+      "anchors": []
+    },
+    "dlsp": {
+      "status": "missing",
+      "fetchedAt": null,
+      "first": null,
+      "last": null,
+      "count": 0,
+      "files": [],
+      "anchors": []
+    },
+    "dbgg": {
+      "status": "missing",
+      "fetchedAt": null,
+      "first": null,
+      "last": null,
+      "count": 0,
+      "files": [],
+      "anchors": []
+    },
+    "reservas": {
+      "status": "missing",
+      "fetchedAt": null,
+      "first": null,
+      "last": null,
+      "count": 0,
+      "files": [],
+      "anchors": []
+    }
+  },
+  "results": {
+    "sarney": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    },
+    "collor": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    },
+    "itamar": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    },
+    "fhc-1": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    },
+    "fhc-2": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    },
+    "fhc-1-2": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    },
+    "lula-1": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    },
+    "lula-2": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    },
+    "lula-1-2": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    },
+    "dilma-1": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    },
+    "dilma-2": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    },
+    "dilma-1-2": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    },
+    "temer": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    },
+    "bolsonaro": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    },
+    "lula-3": {
+      "ipca_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "ipca_anual": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_medio": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "pib_acumulado": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "desocupacao_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_real": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "salario_minimo_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "selic_media": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dolar_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dlsp_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "dbgg_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_fim": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      },
+      "reservas_var": {
+        "status": "unavailable",
+        "value": null,
+        "note": "Dados ainda não baixados das fontes oficiais.",
+        "inputs": []
+      }
+    }
+  }
+}

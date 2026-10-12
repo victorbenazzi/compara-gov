@@ -1,0 +1,5 @@
+# Arquivos gerados pelo pipeline de dados: diffs recolhidos no GitHub.
+data/raw/** linguist-generated=true
+data/series/** linguist-generated=true
+data/indicators.json linguist-generated=true
+data/photos.json linguist-generated=true

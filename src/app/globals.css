@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Tema claro, verde e amarelo. Tokens no padrão shadcn/ui. */
+:root {
+  --radius: 0.75rem;
+
+  --background: oklch(0.995 0.002 120);
+  --foreground: oklch(0.22 0.02 155);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.22 0.02 155);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.22 0.02 155);
+
+  /* Verde bandeira (#009C3B) */
+  --primary: oklch(0.56 0.16 150);
+  --primary-foreground: oklch(0.99 0 0);
+
+  /* Amarelo bandeira (#FFDF00), suavizado para superfícies */
+  --secondary: oklch(0.97 0.06 102);
+  --secondary-foreground: oklch(0.32 0.06 95);
+
+  --muted: oklch(0.97 0.006 140);
+  --muted-foreground: oklch(0.5 0.02 150);
+  --accent: oklch(0.95 0.035 150);
+  --accent-foreground: oklch(0.3 0.08 152);
+  --destructive: oklch(0.58 0.22 27);
+
+  --border: oklch(0.92 0.01 140);
+  --input: oklch(0.9 0.01 140);
+  --ring: oklch(0.56 0.16 150);
+
+  --brand-green: oklch(0.56 0.16 150);
+  --brand-yellow: oklch(0.9 0.18 98);
+  --brand-blue: oklch(0.3 0.13 262);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-brand-green: var(--brand-green);
+  --color-brand-yellow: var(--brand-yellow);
+  --color-brand-blue: var(--brand-blue);
+
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    color-scheme: light;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}

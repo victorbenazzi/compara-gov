@@ -1,0 +1,166 @@
+{
+  "$comment": "Cadastro curado manualmente. Datas de início/fim = exercício efetivo do cargo (inclui interinidades). Cada pessoa aponta para o artigo da Wikipédia em português, de onde vêm a foto e os metadados de licença. Correções: abra um PR citando a fonte.",
+  "people": [
+    { "id": "sarney", "name": "José Sarney", "fullName": "José Sarney de Araújo Costa", "wikipedia": "José_Sarney" },
+    { "id": "collor", "name": "Fernando Collor", "fullName": "Fernando Affonso Collor de Mello", "wikipedia": "Fernando_Collor" },
+    { "id": "itamar", "name": "Itamar Franco", "fullName": "Itamar Augusto Cautiero Franco", "wikipedia": "Itamar_Franco" },
+    { "id": "fhc", "name": "Fernando Henrique Cardoso", "shortName": "FHC", "fullName": "Fernando Henrique Cardoso", "wikipedia": "Fernando_Henrique_Cardoso" },
+    { "id": "lula", "name": "Lula", "fullName": "Luiz Inácio Lula da Silva", "wikipedia": "Luiz_Inácio_Lula_da_Silva" },
+    { "id": "dilma", "name": "Dilma Rousseff", "fullName": "Dilma Vana Rousseff", "wikipedia": "Dilma_Rousseff" },
+    { "id": "temer", "name": "Michel Temer", "fullName": "Michel Miguel Elias Temer Lulia", "wikipedia": "Michel_Temer" },
+    { "id": "bolsonaro", "name": "Jair Bolsonaro", "fullName": "Jair Messias Bolsonaro", "wikipedia": "Jair_Bolsonaro" }
+  ],
+  "terms": [
+    {
+      "id": "sarney",
+      "person": "sarney",
+      "label": "1985–1990",
+      "start": "1985-03-15",
+      "end": "1990-03-15",
+      "party": "PMDB",
+      "vice": null,
+      "howStarted": "Vice-presidente eleito indiretamente; assumiu com a doença e morte de Tancredo Neves.",
+      "howEnded": "Fim do mandato."
+    },
+    {
+      "id": "collor",
+      "person": "collor",
+      "label": "1990–1992",
+      "start": "1990-03-15",
+      "end": "1992-10-02",
+      "party": "PRN",
+      "vice": "Itamar Franco",
+      "howStarted": "Eleição direta (1989).",
+      "howEnded": "Afastado em 02/10/1992 pela abertura do processo de impeachment; renunciou em 29/12/1992."
+    },
+    {
+      "id": "itamar",
+      "person": "itamar",
+      "label": "1992–1994",
+      "start": "1992-10-02",
+      "end": "1995-01-01",
+      "party": "Sem partido",
+      "vice": null,
+      "howStarted": "Vice-presidente; assumiu interinamente em 02/10/1992 e foi efetivado em 29/12/1992.",
+      "howEnded": "Fim do mandato."
+    },
+    {
+      "id": "fhc-1",
+      "person": "fhc",
+      "label": "1º mandato",
+      "start": "1995-01-01",
+      "end": "1999-01-01",
+      "party": "PSDB",
+      "vice": "Marco Maciel",
+      "howStarted": "Eleição direta (1994).",
+      "howEnded": "Reeleito."
+    },
+    {
+      "id": "fhc-2",
+      "person": "fhc",
+      "label": "2º mandato",
+      "start": "1999-01-01",
+      "end": "2003-01-01",
+      "party": "PSDB",
+      "vice": "Marco Maciel",
+      "howStarted": "Reeleição (1998).",
+      "howEnded": "Fim do mandato."
+    },
+    {
+      "id": "fhc-1-2",
+      "person": "fhc",
+      "label": "Governo completo",
+      "combines": ["fhc-1", "fhc-2"]
+    },
+    {
+      "id": "lula-1",
+      "person": "lula",
+      "label": "1º mandato",
+      "start": "2003-01-01",
+      "end": "2007-01-01",
+      "party": "PT",
+      "vice": "José Alencar",
+      "howStarted": "Eleição direta (2002).",
+      "howEnded": "Reeleito."
+    },
+    {
+      "id": "lula-2",
+      "person": "lula",
+      "label": "2º mandato",
+      "start": "2007-01-01",
+      "end": "2011-01-01",
+      "party": "PT",
+      "vice": "José Alencar",
+      "howStarted": "Reeleição (2006).",
+      "howEnded": "Fim do mandato."
+    },
+    {
+      "id": "lula-1-2",
+      "person": "lula",
+      "label": "2003–2010",
+      "combines": ["lula-1", "lula-2"]
+    },
+    {
+      "id": "dilma-1",
+      "person": "dilma",
+      "label": "1º mandato",
+      "start": "2011-01-01",
+      "end": "2015-01-01",
+      "party": "PT",
+      "vice": "Michel Temer",
+      "howStarted": "Eleição direta (2010).",
+      "howEnded": "Reeleita."
+    },
+    {
+      "id": "dilma-2",
+      "person": "dilma",
+      "label": "2º mandato",
+      "start": "2015-01-01",
+      "end": "2016-05-12",
+      "party": "PT",
+      "vice": "Michel Temer",
+      "howStarted": "Reeleição (2014).",
+      "howEnded": "Afastada em 12/05/2016 pela abertura do processo de impeachment; destituída em 31/08/2016."
+    },
+    {
+      "id": "dilma-1-2",
+      "person": "dilma",
+      "label": "Governo completo",
+      "combines": ["dilma-1", "dilma-2"]
+    },
+    {
+      "id": "temer",
+      "person": "temer",
+      "label": "2016–2018",
+      "start": "2016-05-12",
+      "end": "2019-01-01",
+      "party": "MDB",
+      "vice": null,
+      "howStarted": "Vice-presidente; assumiu interinamente em 12/05/2016 e foi efetivado em 31/08/2016.",
+      "howEnded": "Fim do mandato."
+    },
+    {
+      "id": "bolsonaro",
+      "person": "bolsonaro",
+      "label": "2019–2022",
+      "start": "2019-01-01",
+      "end": "2023-01-01",
+      "party": "PSL / PL",
+      "vice": "Hamilton Mourão",
+      "howStarted": "Eleição direta (2018), pelo PSL; filiou-se ao PL em 2021.",
+      "howEnded": "Fim do mandato (não reeleito)."
+    },
+    {
+      "id": "lula-3",
+      "person": "lula",
+      "label": "3º mandato",
+      "start": "2023-01-01",
+      "end": null,
+      "scheduledEnd": "2027-01-05",
+      "party": "PT",
+      "vice": "Geraldo Alckmin",
+      "howStarted": "Eleição direta (2022).",
+      "howEnded": "Mandato em curso."
+    }
+  ]
+}
