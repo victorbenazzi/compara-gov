@@ -2,7 +2,7 @@
   "$comment": "Gerado por `pnpm data:fetch`. Cada arquivo em data/raw é a resposta bruta, byte a byte, da URL oficial indicada. O hash SHA-256 permite verificar que nada foi alterado.",
   "series": {
     "dbgg": {
-      "fetchedAt": "2026-10-12T21:43:31.809Z",
+      "fetchedAt": "2026-10-12T21:50:43.662Z",
       "files": [
         {
           "path": "dbgg/2006-12_2015-12.json",
@@ -24,8 +24,25 @@
         }
       ]
     },
+    "desocupacao": {
+      "fetchedAt": "2026-10-12T21:50:42.604Z",
+      "files": [
+        {
+          "path": "desocupacao/2012-03_2021-12.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.24369/dados?formato=json&dataInicial=01/03/2012&dataFinal=31/12/2021",
+          "sha256": "7abaa39f7c7e9ea4d144488165f0c61853bd2cab6b65d99fed2820ce82d4f71a",
+          "bytes": 4320
+        },
+        {
+          "path": "desocupacao/2022-01_2026-10.json",
+          "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.24369/dados?formato=json&dataInicial=01/01/2022&dataFinal=31/10/2026",
+          "sha256": "fd6351979a3f56245dfb6fb01edd711ceb6db546f0a289ef0f5aa6a861bdaa6e",
+          "bytes": 2021
+        }
+      ]
+    },
     "dlsp": {
-      "fetchedAt": "2026-10-12T21:43:29.945Z",
+      "fetchedAt": "2026-10-12T21:50:43.139Z",
       "files": [
         {
           "path": "dlsp/2001-12_2010-12.json",
@@ -48,7 +65,7 @@
       ]
     },
     "dolar": {
-      "fetchedAt": "2026-10-12T21:43:25.111Z",
+      "fetchedAt": "2026-10-12T21:50:40.719Z",
       "files": [
         {
           "path": "dolar/1994-07_2003-12.json",
@@ -77,7 +94,7 @@
       ]
     },
     "ipca": {
-      "fetchedAt": "2026-10-12T21:43:15.602Z",
+      "fetchedAt": "2026-10-12T21:50:38.142Z",
       "files": [
         {
           "path": "ipca/1980-01_1989-12.json",
@@ -100,8 +117,8 @@
         {
           "path": "ipca/2010-01_2019-12.json",
           "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.433/dados?formato=json&dataInicial=01/01/2010&dataFinal=31/12/2019",
-          "sha256": "74772c8ad048d7446f3da29c19f9a38e9faa2f538d0649791581b9bd29d54a65",
-          "bytes": 6255
+          "sha256": "6a6286520945ad50f8f04e415aa95c16b1976ccf4c787709a813ec30ae3f07b6",
+          "bytes": 4445
         },
         {
           "path": "ipca/2020-01_2026-10.json",
@@ -112,7 +129,7 @@
       ]
     },
     "pib": {
-      "fetchedAt": "2026-10-12T21:43:17.829Z",
+      "fetchedAt": "2026-10-12T21:50:38.996Z",
       "files": [
         {
           "path": "pib/1980_1989.json",
@@ -147,7 +164,7 @@
       ]
     },
     "reservas": {
-      "fetchedAt": "2026-10-12T21:43:35.016Z",
+      "fetchedAt": "2026-10-12T21:50:44.585Z",
       "files": [
         {
           "path": "reservas/1985-01_1994-12.json",
@@ -182,7 +199,7 @@
       ]
     },
     "salarioMinimo": {
-      "fetchedAt": "2026-10-12T21:43:27.688Z",
+      "fetchedAt": "2026-10-12T21:50:41.455Z",
       "files": [
         {
           "path": "salarioMinimo/1994-07_2003-12.json",
@@ -211,7 +228,7 @@
       ]
     },
     "selic": {
-      "fetchedAt": "2026-10-12T21:43:21.942Z",
+      "fetchedAt": "2026-10-12T21:50:39.990Z",
       "files": [
         {
           "path": "selic/1986-07_1995-12.json",
